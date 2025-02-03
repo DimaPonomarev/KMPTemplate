@@ -1,0 +1,89 @@
+[
+    {
+        "name": "strings",
+        "parentObjectName": "MR",
+        "resourceType": "STRINGS",
+        "resources": [
+            {
+                "resourceType": "dev.icerock.gradle.metadata.resource.StringMetadata",
+                "key": "my_string",
+                "values": [
+                    {
+                        "locale": "base",
+                        "value": "My default localization string"
+                    }
+                ]
+            },
+            {
+                "resourceType": "dev.icerock.gradle.metadata.resource.StringMetadata",
+                "key": "login",
+                "values": [
+                    {
+                        "locale": "base",
+                        "value": "Логин"
+                    }
+                ]
+            },
+            {
+                "resourceType": "dev.icerock.gradle.metadata.resource.StringMetadata",
+                "key": "password",
+                "values": [
+                    {
+                        "locale": "base",
+                        "value": "Пароль"
+                    }
+                ]
+            },
+            {
+                "resourceType": "dev.icerock.gradle.metadata.resource.StringMetadata",
+                "key": "log_in",
+                "values": [
+                    {
+                        "locale": "base",
+                        "value": "Зарегистрироваться"
+                    }
+                ]
+            },
+            {
+                "resourceType": "dev.icerock.gradle.metadata.resource.StringMetadata",
+                "key": "button_yes",
+                "values": [
+                    {
+                        "locale": "base",
+                        "value": "Да"
+                    }
+                ]
+            },
+            {
+                "resourceType": "dev.icerock.gradle.metadata.resource.StringMetadata",
+                "key": "button_no",
+                "values": [
+                    {
+                        "locale": "base",
+                        "value": "Нет"
+                    }
+                ]
+            },
+            {
+                "resourceType": "dev.icerock.gradle.metadata.resource.StringMetadata",
+                "key": "show_next_screen",
+                "values": [
+                    {
+                        "locale": "base",
+                        "value": "Перейти на следующий экран"
+                    }
+                ]
+            },
+            {
+                "resourceType": "dev.icerock.gradle.metadata.resource.StringMetadata",
+                "key": "go_back",
+                "values": [
+                    {
+                        "locale": "base",
+                        "value": "Вернуться"
+                    }
+                ]
+            }
+        ]
+    }
+]

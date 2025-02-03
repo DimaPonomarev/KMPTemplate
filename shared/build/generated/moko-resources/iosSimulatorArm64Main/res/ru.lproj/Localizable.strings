@@ -1,0 +1,8 @@
+"my_string" = "My default localization string";
+"login" = "Логин";
+"password" = "Пароль";
+"log_in" = "Зарегистрироваться";
+"button_yes" = "Да";
+"button_no" = "Нет";
+"show_next_screen" = "Перейти на следующий экран";
+"go_back" = "Вернуться";

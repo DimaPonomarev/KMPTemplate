@@ -1,0 +1,7 @@
+{
+    "": {
+        "emit-module-dependencies": "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift-compiler/module/MultiPlatformLibrary.d",
+        "swift-dependencies": "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift-compiler/module/MultiPlatformLibrary.swiftdeps",
+        "object": "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift-compiler/object-files/MultiPlatformLibrary.o"
+    }
+}

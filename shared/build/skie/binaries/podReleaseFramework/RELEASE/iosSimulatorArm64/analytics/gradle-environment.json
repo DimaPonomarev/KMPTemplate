@@ -1,0 +1,9 @@
+{
+    "gradleVersion": "8.7",
+    "ci": null,
+    "skieVersion": "0.9.3",
+    "timestampInMs": 1738537142139,
+    "kotlinVersion": "2.0.20",
+    "jvmVersion": "21.0.5+9-LTS-239",
+    "macOSVersion": "15.2"
+}

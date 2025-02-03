@@ -1,0 +1,10 @@
+R_DEF: Internal format may change without notice
+local
+string button_no
+string button_yes
+string go_back
+string log_in
+string login
+string my_string
+string password
+string show_next_screen

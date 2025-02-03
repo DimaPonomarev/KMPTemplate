@@ -1,0 +1,698 @@
+[
+    {
+        "id": "6c68381b6df5a940cfb0baba81a6bc842c8ab29d3e7fb668f358dbedcc0d7d80",
+        "version": null,
+        "type": "BuiltIn",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 15,
+                "callableMembers": 43
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 141,
+                "callableMembers": 1197
+            },
+            "nonExportableDeclarations": {
+                "classes": 194,
+                "callableMembers": 587
+            },
+            "overriddenCallableMembers": 1828,
+            "numberOfIrElements": 11589
+        }
+    },
+    {
+        "id": "98415170bf351becced539801bd32398e5bcb3da4553162ea5b0d4f552dc70d6",
+        "version": "1.8.20",
+        "type": "Library",
+        "isExported": false,
+        "statistics": null
+    },
+    {
+        "id": "a54cead7874f9288b233e70d9d3dccbc202b0382df5c9f4720a4f61798030d5a",
+        "version": "2.0.20",
+        "type": "Library",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "overriddenCallableMembers": 0,
+            "numberOfIrElements": 0
+        }
+    },
+    {
+        "id": "7cbcb8ba4a020f3990ce4a122ecc7028bfd8cd3dbba2a8db1c284a2aa5ea63aa",
+        "version": "1.8.20",
+        "type": "Library",
+        "isExported": false,
+        "statistics": null
+    },
+    {
+        "id": "6b3d34d23a08d43a4add419a0fa2dfe39f20efa1b86a33f5d0c5afb5e1e98af6",
+        "version": "1.6.0",
+        "type": "Library",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "overriddenCallableMembers": 0,
+            "numberOfIrElements": 0
+        }
+    },
+    {
+        "id": "c652088919aaba838825824f0601e806b1ba24962300092e9bb6f48439ef4629",
+        "version": "1.6.0",
+        "type": "Library",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "overriddenCallableMembers": 0,
+            "numberOfIrElements": 0
+        }
+    },
+    {
+        "id": "19c0abd6752b1bf17fed8a428d0d8d1210d0db65938e4371d2dec8812f32c822",
+        "version": "1.7.3",
+        "type": "Library",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 11,
+                "callableMembers": 17
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 21,
+                "callableMembers": 84
+            },
+            "nonExportableDeclarations": {
+                "classes": 7,
+                "callableMembers": 34
+            },
+            "overriddenCallableMembers": 227,
+            "numberOfIrElements": 1281
+        }
+    },
+    {
+        "id": "0c73991c9bd0022f4a7cddac8d84406b3459435f921e9e4e1f3d3b10f62090b0",
+        "version": "0.23.2",
+        "type": "Library",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "overriddenCallableMembers": 0,
+            "numberOfIrElements": 11
+        }
+    },
+    {
+        "id": "229b6eade7b9a3f568a635cf4048fe9e55392f4679cfbf2976ddcb2da6287404",
+        "version": "0.13.0",
+        "type": "Library",
+        "isExported": true,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 3,
+                "callableMembers": 8
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 2
+            },
+            "overriddenCallableMembers": 9,
+            "numberOfIrElements": 68
+        }
+    },
+    {
+        "id": "48376f41deeb82a6c967b5bcdc77ae16b6f806cb2087ec4278d940089793e0c0",
+        "version": "0.13.0",
+        "type": "Library",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "overriddenCallableMembers": 0,
+            "numberOfIrElements": 9
+        }
+    },
+    {
+        "id": "3e839308cf373c0a92490ad3b88550af51f8019d3529f4f058e1de21c280f048",
+        "version": "0.13.0",
+        "type": "Library",
+        "isExported": true,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 4,
+                "callableMembers": 28
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 3
+            },
+            "overriddenCallableMembers": 29,
+            "numberOfIrElements": 225
+        }
+    },
+    {
+        "id": "d942a2c8ae563eeba3670b5380360ea4bd3d93ba395abeb8ea4d20ebb07b5a4f",
+        "version": "0.4.0",
+        "type": "Library",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 1
+            },
+            "nonExportableDeclarations": {
+                "classes": 1,
+                "callableMembers": 0
+            },
+            "overriddenCallableMembers": 3,
+            "numberOfIrElements": 12
+        }
+    },
+    {
+        "id": "be020bf96165b4f809d4d320f8ebca337892af6e0f0d52cc7993535d7a4cac3f",
+        "version": "0.24.3",
+        "type": "Library",
+        "isExported": true,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 31,
+                "callableMembers": 115
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 18
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 7
+            },
+            "overriddenCallableMembers": 113,
+            "numberOfIrElements": 872
+        }
+    },
+    {
+        "id": "b975543b43faaeb821662d7de2dff1bfd50a0916d8110845747642cb7df8630c",
+        "version": "0.9.0",
+        "type": "Library",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 2,
+                "callableMembers": 9
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 4
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 1
+            },
+            "overriddenCallableMembers": 6,
+            "numberOfIrElements": 76
+        }
+    },
+    {
+        "id": "083f117abd7d13565accdbe77a8706e5dc52c401e8a92704359907738bf9e466",
+        "version": "0.24.3",
+        "type": "Library",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "overriddenCallableMembers": 0,
+            "numberOfIrElements": 18
+        }
+    },
+    {
+        "id": "789e684aae9dc25c8b2ec8539ce94d77d520b259a823c88d25c4120c2965b794",
+        "version": "1.6.0",
+        "type": "Library",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "overriddenCallableMembers": 0,
+            "numberOfIrElements": 151
+        }
+    },
+    {
+        "id": "88a24e73d459ad5e8c8323ccacb6e11208978c495af9c441f066548ec4228301",
+        "version": "1.4.0",
+        "type": "Library",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "overriddenCallableMembers": 0,
+            "numberOfIrElements": 52
+        }
+    },
+    {
+        "id": "b54440cbe079f175dcd50812b48fe8f18756e20563b13b7fce217508171a9fbc",
+        "version": "1.7.1",
+        "type": "Library",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "overriddenCallableMembers": 0,
+            "numberOfIrElements": 23
+        }
+    },
+    {
+        "id": "cca594a34276448133253cac877b1427da280597e15c2f839c1247c4efd155b2",
+        "version": "1.6.0",
+        "type": "Library",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "overriddenCallableMembers": 0,
+            "numberOfIrElements": 325
+        }
+    },
+    {
+        "id": "d6525fe95aa97d765ba63754b6d4dd753a7e6e9096e455507f0500c3cf8c9a9b",
+        "version": "1.6.0",
+        "type": "Library",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "overriddenCallableMembers": 0,
+            "numberOfIrElements": 17
+        }
+    },
+    {
+        "id": "4dfacb31a58a2ca97ce281177e2199bc79123bb8a1efd7be447c902556f534ba",
+        "version": "1.6.0",
+        "type": "Library",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "overriddenCallableMembers": 0,
+            "numberOfIrElements": 39
+        }
+    },
+    {
+        "id": "6d78aa600dc286faf10ab1ee61d188f6aad1d2658d2bf6e0fa90683a12c88ea5",
+        "version": "1.6.0",
+        "type": "Library",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "overriddenCallableMembers": 0,
+            "numberOfIrElements": 303
+        }
+    },
+    {
+        "id": "75b09b9b3af03bb82ec43933e9b12e1895832b2bdb4a20d9cba6e34b23e4a055",
+        "version": "1.6.0",
+        "type": "Library",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "overriddenCallableMembers": 0,
+            "numberOfIrElements": 7
+        }
+    },
+    {
+        "id": "498b9292968eeca5ff4a50db9f5729577e5d6cbc245e907e4dd9f26a2dbc88cf",
+        "version": "1.6.0",
+        "type": "Library",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "overriddenCallableMembers": 0,
+            "numberOfIrElements": 8
+        }
+    },
+    {
+        "id": "9c39303cbba5654e569ae595e67f7c4374a5310a92658df56766b22219342ed9",
+        "version": "1.6.0",
+        "type": "Library",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "overriddenCallableMembers": 0,
+            "numberOfIrElements": 8
+        }
+    },
+    {
+        "id": "3692e8a2113900fabaf0cd802887acbac39e8a94009b91cf817284c29789984f",
+        "version": "1.6.0",
+        "type": "Library",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "overriddenCallableMembers": 0,
+            "numberOfIrElements": 81
+        }
+    },
+    {
+        "id": "49715f3d203c11437c8184f7a25ba393a13275bd4c98e74f7412f6b7af0843f1",
+        "version": "1.6.0",
+        "type": "Library",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "overriddenCallableMembers": 0,
+            "numberOfIrElements": 15
+        }
+    },
+    {
+        "id": "b6fee07b3eeed0953e2ccf0cc38e378522e94291728881dad28901e183d77d2e",
+        "version": "0.7.93",
+        "type": "Library",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "overriddenCallableMembers": 0,
+            "numberOfIrElements": 241
+        }
+    },
+    {
+        "id": "ee2f85cd280e96f48ec4e7bd8f2b200adb5aa0087f4d4e60f32076c66b0c3b94",
+        "version": "1.6.0",
+        "type": "Library",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "overriddenCallableMembers": 0,
+            "numberOfIrElements": 109
+        }
+    },
+    {
+        "id": "48a952ed47c24f9fdccd34ce1d90fd807d9ee125b1b07e64aeb513ccc68ed249",
+        "version": "1.6.0",
+        "type": "Library",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "overriddenCallableMembers": 0,
+            "numberOfIrElements": 3
+        }
+    },
+    {
+        "id": "eef0bd6c340849201f391d5ea357e287912074d1ef6eb126648552116cacb2a4",
+        "version": "1.6.0",
+        "type": "Library",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "overriddenCallableMembers": 0,
+            "numberOfIrElements": 25
+        }
+    },
+    {
+        "id": "533c81d76f8acc5645bcd2ec19ca487aa4602b6943f02abaaf99b9be7534450f",
+        "version": null,
+        "type": "Local",
+        "isExported": true,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 18,
+                "callableMembers": 24
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 2
+            },
+            "nonExportableDeclarations": {
+                "classes": 3,
+                "callableMembers": 34
+            },
+            "overriddenCallableMembers": 118,
+            "numberOfIrElements": 581
+        }
+    },
+    {
+        "id": "60013393a07b7ab37b494aa0f5f339cd65d30d12286646cd1303cfb50d767428",
+        "version": null,
+        "type": "Local",
+        "isExported": true,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 15,
+                "callableMembers": 39
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 2
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 15
+            },
+            "overriddenCallableMembers": 52,
+            "numberOfIrElements": 955
+        }
+    }
+]

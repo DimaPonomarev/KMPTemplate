@@ -1,0 +1,3039 @@
+Name: "MultiPlatformLibrary"
+Classes:
+- Name: "MPLBase"
+  SwiftName: "KotlinBase"
+- Name: "MPLMutableSet"
+  SwiftName: "KotlinMutableSet"
+- Name: "MPLMutableDictionary"
+  SwiftName: "KotlinMutableDictionary"
+- Name: "MPLNumber"
+  SwiftName: "KotlinNumber"
+- Name: "MPLByte"
+  SwiftName: "KotlinByte"
+- Name: "MPLUByte"
+  SwiftName: "KotlinUByte"
+- Name: "MPLShort"
+  SwiftName: "KotlinShort"
+- Name: "MPLUShort"
+  SwiftName: "KotlinUShort"
+- Name: "MPLInt"
+  SwiftName: "KotlinInt"
+- Name: "MPLUInt"
+  SwiftName: "KotlinUInt"
+- Name: "MPLLong"
+  SwiftName: "KotlinLong"
+- Name: "MPLULong"
+  SwiftName: "KotlinULong"
+- Name: "MPLFloat"
+  SwiftName: "KotlinFloat"
+- Name: "MPLDouble"
+  SwiftName: "KotlinDouble"
+- Name: "MPLBoolean"
+  SwiftName: "KotlinBoolean"
+- Name: "MPLKotlinAbstractCoroutineContextElement"
+  SwiftName: "KotlinAbstractCoroutineContextElement"
+  Properties:
+  - Name: "key"
+    PropertyKind: "Instance"
+    SwiftName: "key"
+    Type: "id<MPLKotlinCoroutineContextKey> _Nonnull"
+  Methods:
+  - Selector: "initWithKey:"
+    MethodKind: "Instance"
+    SwiftName: "init(key:)"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinCoroutineContextKey> _Nonnull"
+- Name: "MPLKotlinAbstractCoroutineContextKey"
+  SwiftName: "KotlinAbstractCoroutineContextKey"
+  Methods:
+  - Selector: "initWithBaseKey:safeCast:"
+    MethodKind: "Instance"
+    SwiftName: "init(baseKey:safeCast:)"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinCoroutineContextKey> _Nonnull"
+    - Position: 1
+      Type: "E _Nullable (^ _Nonnull)(id<MPLKotlinCoroutineContextElement> _Nonnull)"
+- Name: "MPLKotlinCancellationException"
+  SwiftName: "KotlinCancellationException"
+  Methods:
+  - Selector: "init"
+    MethodKind: "Instance"
+    SwiftName: "init()"
+  - Selector: "initWithMessage:"
+    MethodKind: "Instance"
+    SwiftName: "init(message:)"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nullable"
+  - Selector: "initWithMessage:cause:"
+    MethodKind: "Instance"
+    SwiftName: "init(message:cause:)"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nullable"
+    - Position: 1
+      Type: "MPLKotlinThrowable * _Nullable"
+  - Selector: "initWithCause:"
+    MethodKind: "Instance"
+    SwiftName: "init(cause:)"
+    Parameters:
+    - Position: 0
+      Type: "MPLKotlinThrowable * _Nullable"
+- Name: "MPLKotlinThrowable"
+  SwiftName: "KotlinThrowable"
+  Properties:
+  - Name: "cause"
+    PropertyKind: "Instance"
+    SwiftName: "cause"
+    Type: "MPLKotlinThrowable * _Nullable"
+  - Name: "message"
+    PropertyKind: "Instance"
+    SwiftName: "message"
+    Type: "NSString * _Nullable"
+  Methods:
+  - Selector: "initWithMessage:"
+    MethodKind: "Instance"
+    SwiftName: "init(message:)"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nullable"
+  - Selector: "initWithCause:"
+    MethodKind: "Instance"
+    SwiftName: "init(cause:)"
+    Parameters:
+    - Position: 0
+      Type: "MPLKotlinThrowable * _Nullable"
+  - Selector: "init"
+    MethodKind: "Instance"
+    SwiftName: "init()"
+  - Selector: "initWithMessage:cause:"
+    MethodKind: "Instance"
+    SwiftName: "init(message:cause:)"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nullable"
+    - Position: 1
+      Type: "MPLKotlinThrowable * _Nullable"
+  - Selector: "getStackTrace"
+    MethodKind: "Instance"
+    SwiftName: "getStackTrace()"
+    ResultType: "MPLKotlinArray<NSString *> * _Nonnull"
+  - Selector: "printStackTrace"
+    MethodKind: "Instance"
+    SwiftName: "printStackTrace()"
+    ResultType: "void"
+  - Selector: "description"
+    MethodKind: "Instance"
+    SwiftName: "description()"
+    ResultType: "NSString * _Nonnull"
+- Name: "MPLKotlinArray"
+  SwiftName: "KotlinArray"
+  Properties:
+  - Name: "size"
+    PropertyKind: "Instance"
+    SwiftName: "size"
+    Type: "int32_t"
+  Methods:
+  - Selector: "arrayWithSize:init:"
+    MethodKind: "Instance"
+    SwiftName: "init(size:init:)"
+    Parameters:
+    - Position: 0
+      Type: "int32_t"
+    - Position: 1
+      Type: "T _Nullable (^ _Nonnull)(MPLInt * _Nonnull)"
+  - Selector: "getIndex:"
+    MethodKind: "Instance"
+    SwiftName: "get(index:)"
+    ResultType: "T _Nullable"
+    Parameters:
+    - Position: 0
+      Type: "int32_t"
+  - Selector: "iterator"
+    MethodKind: "Instance"
+    SwiftName: "iterator()"
+    ResultType: "id<MPLKotlinIterator> _Nonnull"
+  - Selector: "setIndex:value:"
+    MethodKind: "Instance"
+    SwiftName: "set(index:value:)"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "int32_t"
+    - Position: 1
+      Type: "T _Nullable"
+- Name: "MPLKotlinIllegalStateException"
+  SwiftName: "KotlinIllegalStateException"
+  Methods:
+  - Selector: "init"
+    MethodKind: "Instance"
+    SwiftName: "init()"
+  - Selector: "initWithMessage:"
+    MethodKind: "Instance"
+    SwiftName: "init(message:)"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nullable"
+  - Selector: "initWithMessage:cause:"
+    MethodKind: "Instance"
+    SwiftName: "init(message:cause:)"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nullable"
+    - Position: 1
+      Type: "MPLKotlinThrowable * _Nullable"
+  - Selector: "initWithCause:"
+    MethodKind: "Instance"
+    SwiftName: "init(cause:)"
+    Parameters:
+    - Position: 0
+      Type: "MPLKotlinThrowable * _Nullable"
+- Name: "MPLKotlinRuntimeException"
+  SwiftName: "KotlinRuntimeException"
+  Methods:
+  - Selector: "init"
+    MethodKind: "Instance"
+    SwiftName: "init()"
+  - Selector: "initWithMessage:"
+    MethodKind: "Instance"
+    SwiftName: "init(message:)"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nullable"
+  - Selector: "initWithMessage:cause:"
+    MethodKind: "Instance"
+    SwiftName: "init(message:cause:)"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nullable"
+    - Position: 1
+      Type: "MPLKotlinThrowable * _Nullable"
+  - Selector: "initWithCause:"
+    MethodKind: "Instance"
+    SwiftName: "init(cause:)"
+    Parameters:
+    - Position: 0
+      Type: "MPLKotlinThrowable * _Nullable"
+- Name: "MPLKotlinException"
+  SwiftName: "KotlinException"
+  Methods:
+  - Selector: "init"
+    MethodKind: "Instance"
+    SwiftName: "init()"
+  - Selector: "initWithMessage:"
+    MethodKind: "Instance"
+    SwiftName: "init(message:)"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nullable"
+  - Selector: "initWithMessage:cause:"
+    MethodKind: "Instance"
+    SwiftName: "init(message:cause:)"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nullable"
+    - Position: 1
+      Type: "MPLKotlinThrowable * _Nullable"
+  - Selector: "initWithCause:"
+    MethodKind: "Instance"
+    SwiftName: "init(cause:)"
+    Parameters:
+    - Position: 0
+      Type: "MPLKotlinThrowable * _Nullable"
+- Name: "MPLKotlinObjCErrorException"
+  SwiftName: "KotlinObjCErrorException"
+  Methods:
+  - Selector: "initWithMessage:error:"
+    MethodKind: "Instance"
+    SwiftName: "init(message:error:)"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nullable"
+    - Position: 1
+      Type: "id _Nonnull"
+  - Selector: "description"
+    MethodKind: "Instance"
+    SwiftName: "description()"
+    ResultType: "NSString * _Nonnull"
+  - Selector: "init"
+    MethodKind: "Instance"
+    SwiftName: "init()"
+    Availability: "nonswift"
+  - Selector: "initWithMessage:"
+    MethodKind: "Instance"
+    SwiftName: "init(message:)"
+    Availability: "nonswift"
+  - Selector: "initWithMessage:cause:"
+    MethodKind: "Instance"
+    SwiftName: "init(message:cause:)"
+    Availability: "nonswift"
+  - Selector: "initWithCause:"
+    MethodKind: "Instance"
+    SwiftName: "init(cause:)"
+    Availability: "nonswift"
+- Name: "MPLCFlow"
+  SwiftName: "CFlow"
+  Methods:
+  - Selector: "initWithFlow:"
+    MethodKind: "Instance"
+    SwiftName: "init(flow:)"
+    Parameters:
+    - Position: 0
+      Type: "MPLSkieKotlinOptionalFlow<T> * _Nonnull"
+  - Selector: "collectCollector:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__collect(collector:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinx_coroutines_coreFlowCollector> _Nonnull"
+    - Position: 1
+      Type: "void (^ _Nonnull)(NSError * _Nullable)"
+  - Selector: "subscribeOnCollect:"
+    MethodKind: "Instance"
+    SwiftName: "subscribe(onCollect:)"
+    ResultType: "id<MPLDisposableHandle> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "void (^ _Nonnull)(T _Nullable)"
+  - Selector: "subscribeCoroutineScope:dispatcher:onCollect:"
+    MethodKind: "Instance"
+    SwiftName: "subscribe(coroutineScope:dispatcher:onCollect:)"
+    ResultType: "id<MPLDisposableHandle> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinx_coroutines_coreCoroutineScope> _Nonnull"
+    - Position: 1
+      Type: "MPLKotlinx_coroutines_coreCoroutineDispatcher * _Nonnull"
+    - Position: 2
+      Type: "void (^ _Nonnull)(T _Nullable)"
+- Name: "MPLCMutableStateFlow"
+  SwiftName: "CMutableStateFlow"
+  Properties:
+  - Name: "subscriptionCount"
+    PropertyKind: "Instance"
+    SwiftName: "subscriptionCount"
+    Type: "MPLSkieKotlinStateFlow<MPLInt *> * _Nonnull"
+  - Name: "value"
+    PropertyKind: "Instance"
+    SwiftName: "value"
+    Type: "T _Nullable"
+  Methods:
+  - Selector: "initWithFlow:"
+    MethodKind: "Instance"
+    SwiftName: "init(flow:)"
+    Parameters:
+    - Position: 0
+      Type: "MPLSkieKotlinOptionalMutableStateFlow<T> * _Nonnull"
+  - Selector: "compareAndSetExpect:update:"
+    MethodKind: "Instance"
+    SwiftName: "compareAndSet(expect:update:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "T _Nullable"
+    - Position: 1
+      Type: "T _Nullable"
+  - Selector: "emitValue:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__emit(value:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "T _Nullable"
+    - Position: 1
+      Type: "void (^ _Nonnull)(NSError * _Nullable)"
+  - Selector: "resetReplayCache"
+    MethodKind: "Instance"
+    SwiftName: "resetReplayCache()"
+    ResultType: "void"
+  - Selector: "tryEmitValue:"
+    MethodKind: "Instance"
+    SwiftName: "tryEmit(value:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "T _Nullable"
+- Name: "MPLCStateFlow"
+  SwiftName: "CStateFlow"
+  Properties:
+  - Name: "replayCache"
+    PropertyKind: "Instance"
+    SwiftName: "replayCache"
+    Type: "NSArray<id> * _Nonnull"
+  - Name: "value"
+    PropertyKind: "Instance"
+    SwiftName: "value"
+    Type: "T _Nullable"
+  Methods:
+  - Selector: "initWithFlow:"
+    MethodKind: "Instance"
+    SwiftName: "init(flow:)"
+    Parameters:
+    - Position: 0
+      Type: "MPLSkieKotlinOptionalStateFlow<T> * _Nonnull"
+  - Selector: "collectCollector:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__collect(collector:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinx_coroutines_coreFlowCollector> _Nonnull"
+    - Position: 1
+      Type: "void (^ _Nonnull)(NSError * _Nullable)"
+- Name: "MPLDisposableHandleKt"
+  SwiftName: "DisposableHandleKt"
+  Methods:
+  - Selector: "DisposableHandleBlock:"
+    MethodKind: "Class"
+    SwiftName: "DisposableHandle(block:)"
+    ResultType: "id<MPLDisposableHandle> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "void (^ _Nonnull)(void)"
+  - Selector: "plus:other:"
+    MethodKind: "Class"
+    SwiftName: "plus(_:other:)"
+    ResultType: "id<MPLDisposableHandle> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLDisposableHandle> _Nonnull"
+    - Position: 1
+      Type: "id<MPLDisposableHandle> _Nonnull"
+- Name: "MPLCFlowKt"
+  SwiftName: "CFlowKt"
+  Methods:
+  - Selector: "cFlow:"
+    MethodKind: "Class"
+    SwiftName: "cFlow(_:)"
+    ResultType: "MPLCFlow<id> * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "MPLSkieKotlinOptionalFlow<id> * _Nonnull"
+- Name: "MPLCMutableStateFlowKt"
+  SwiftName: "CMutableStateFlowKt"
+  Methods:
+  - Selector: "cMutableStateFlow:"
+    MethodKind: "Class"
+    SwiftName: "cMutableStateFlow(_:)"
+    ResultType: "MPLCMutableStateFlow<id> * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "MPLSkieKotlinOptionalMutableStateFlow<id> * _Nonnull"
+- Name: "MPLCStateFlowKt"
+  SwiftName: "CStateFlowKt"
+  Methods:
+  - Selector: "cStateFlow:"
+    MethodKind: "Class"
+    SwiftName: "cStateFlow(_:)"
+    ResultType: "MPLCStateFlow<id> * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "MPLSkieKotlinOptionalStateFlow<id> * _Nonnull"
+- Name: "MPLBindingBaseKt"
+  SwiftName: "BindingBaseKt"
+  Methods:
+  - Selector: "bind:flow:setter:"
+    MethodKind: "Class"
+    SwiftName: "bind(_:flow:setter:)"
+    ResultType: "id<MPLDisposableHandle> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "id _Nonnull"
+    - Position: 1
+      Type: "MPLCStateFlow<id> * _Nonnull"
+    - Position: 2
+      Type: "void (^ _Nonnull)(id _Nonnull, id _Nullable)"
+- Name: "MPLUIViewBindingsKt"
+  SwiftName: "UIViewBindingsKt"
+  Methods:
+  - Selector: "bindBackgroundColor:flow:trueColor:falseColor:"
+    MethodKind: "Class"
+    SwiftName: "bindBackgroundColor(_:flow:trueColor:falseColor:)"
+    ResultType: "id<MPLDisposableHandle> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "UIView * _Nonnull"
+    - Position: 1
+      Type: "MPLCStateFlow<MPLBoolean *> * _Nonnull"
+    - Position: 2
+      Type: "UIColor * _Nonnull"
+    - Position: 3
+      Type: "UIColor * _Nonnull"
+  - Selector: "bindFocus:flow:"
+    MethodKind: "Class"
+    SwiftName: "bindFocus(_:flow:)"
+    ResultType: "id<MPLDisposableHandle> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "UIView * _Nonnull"
+    - Position: 1
+      Type: "MPLCStateFlow<MPLBoolean *> * _Nonnull"
+  - Selector: "bindHidden:flow:"
+    MethodKind: "Class"
+    SwiftName: "bindHidden(_:flow:)"
+    ResultType: "id<MPLDisposableHandle> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "UIView * _Nonnull"
+    - Position: 1
+      Type: "MPLCStateFlow<MPLBoolean *> * _Nonnull"
+- Name: "MPLUIControlBindingsKt"
+  SwiftName: "UIControlBindingsKt"
+  Methods:
+  - Selector: "bindEnabled:flow:"
+    MethodKind: "Class"
+    SwiftName: "bindEnabled(_:flow:)"
+    ResultType: "id<MPLDisposableHandle> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "UIControl * _Nonnull"
+    - Position: 1
+      Type: "MPLCStateFlow<MPLBoolean *> * _Nonnull"
+  - Selector: "bindFocusTwoWay:flow:"
+    MethodKind: "Class"
+    SwiftName: "bindFocusTwoWay(_:flow:)"
+    ResultType: "id<MPLDisposableHandle> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "UIControl * _Nonnull"
+    - Position: 1
+      Type: "MPLCMutableStateFlow<MPLBoolean *> * _Nonnull"
+- Name: "MPLUITextViewBindingsKt"
+  SwiftName: "UITextViewBindingsKt"
+  Methods:
+  - Selector: "bindFocusTwoWay:flow:"
+    MethodKind: "Class"
+    SwiftName: "bindFocusTwoWay(_:flow:)"
+    ResultType: "id<MPLDisposableHandle> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "UITextView * _Nonnull"
+    - Position: 1
+      Type: "MPLCMutableStateFlow<MPLBoolean *> * _Nonnull"
+  - Selector: "bindText:flow:"
+    MethodKind: "Class"
+    SwiftName: "bindText(_:flow:)"
+    ResultType: "id<MPLDisposableHandle> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "UITextView * _Nonnull"
+    - Position: 1
+      Type: "MPLCStateFlow<NSString *> * _Nonnull"
+  - Selector: "bindTextTwoWay:flow:"
+    MethodKind: "Class"
+    SwiftName: "bindTextTwoWay(_:flow:)"
+    ResultType: "id<MPLDisposableHandle> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "UITextView * _Nonnull"
+    - Position: 1
+      Type: "MPLCMutableStateFlow<NSString *> * _Nonnull"
+- Name: "MPLUIButtonBindingsKt"
+  SwiftName: "UIButtonBindingsKt"
+  Methods:
+  - Selector: "bindImage:flow:trueImage:falseImage:"
+    MethodKind: "Class"
+    SwiftName: "bindImage(_:flow:trueImage:falseImage:)"
+    ResultType: "id<MPLDisposableHandle> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "UIButton * _Nonnull"
+    - Position: 1
+      Type: "MPLCStateFlow<MPLBoolean *> * _Nonnull"
+    - Position: 2
+      Type: "UIImage * _Nonnull"
+    - Position: 3
+      Type: "UIImage * _Nonnull"
+  - Selector: "bindTitle:flow:"
+    MethodKind: "Class"
+    SwiftName: "bindTitle(_:flow:)"
+    ResultType: "id<MPLDisposableHandle> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "UIButton * _Nonnull"
+    - Position: 1
+      Type: "MPLCStateFlow<NSString *> * _Nonnull"
+- Name: "MPLUISwitchBindingsKt"
+  SwiftName: "UISwitchBindingsKt"
+  Methods:
+  - Selector: "bindSwitchOn:flow:"
+    MethodKind: "Class"
+    SwiftName: "bindSwitchOn(_:flow:)"
+    ResultType: "id<MPLDisposableHandle> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "UISwitch * _Nonnull"
+    - Position: 1
+      Type: "MPLCStateFlow<MPLBoolean *> * _Nonnull"
+  - Selector: "bindSwitchOnTwoWay:flow:"
+    MethodKind: "Class"
+    SwiftName: "bindSwitchOnTwoWay(_:flow:)"
+    ResultType: "id<MPLDisposableHandle> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "UISwitch * _Nonnull"
+    - Position: 1
+      Type: "MPLCMutableStateFlow<MPLBoolean *> * _Nonnull"
+- Name: "MPLUILabelBindingsKt"
+  SwiftName: "UILabelBindingsKt"
+  Methods:
+  - Selector: "bindText:flow:"
+    MethodKind: "Class"
+    SwiftName: "bindText(_:flow:)"
+    ResultType: "id<MPLDisposableHandle> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "UILabel * _Nonnull"
+    - Position: 1
+      Type: "MPLCStateFlow<NSString *> * _Nonnull"
+- Name: "MPLUITextFieldBindingsKt"
+  SwiftName: "UITextFieldBindingsKt"
+  Methods:
+  - Selector: "bindText:flow:"
+    MethodKind: "Class"
+    SwiftName: "bindText(_:flow:)"
+    ResultType: "id<MPLDisposableHandle> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "UITextField * _Nonnull"
+    - Position: 1
+      Type: "MPLCStateFlow<NSString *> * _Nonnull"
+  - Selector: "bindTextTwoWay:flow:"
+    MethodKind: "Class"
+    SwiftName: "bindTextTwoWay(_:flow:)"
+    ResultType: "id<MPLDisposableHandle> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "UITextField * _Nonnull"
+    - Position: 1
+      Type: "MPLCMutableStateFlow<NSString *> * _Nonnull"
+- Name: "MPLUIControlExtKt"
+  SwiftName: "UIControlExtKt"
+  Methods:
+  - Selector: "setEventHandler:event:lambda:"
+    MethodKind: "Class"
+    SwiftName: "setEventHandler(_:event:lambda:)"
+    ResultType: "id<MPLDisposableHandle> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "UIControl * _Nonnull"
+    - Position: 1
+      Type: "uint64_t"
+    - Position: 2
+      Type: "void (^ _Nonnull)(UIControl * _Nonnull)"
+- Name: "MPLNSNotificationCenterExtKt"
+  SwiftName: "NSNotificationCenterExtKt"
+  Methods:
+  - Selector: "setEventHandler:notification:ref:lambda:"
+    MethodKind: "Class"
+    SwiftName: "setEventHandler(_:notification:ref:lambda:)"
+    ResultType: "id<MPLDisposableHandle> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "NSNotificationCenter * _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nullable"
+    - Position: 2
+      Type: "id _Nonnull"
+    - Position: 3
+      Type: "void (^ _Nonnull)(id _Nonnull)"
+- Name: "MPLKotlinx_coroutines_coreCoroutineDispatcher"
+  SwiftName: "Kotlinx_coroutines_coreCoroutineDispatcher"
+  Methods:
+  - Selector: "init"
+    MethodKind: "Instance"
+    SwiftName: "init()"
+  - Selector: "dispatchContext:block:"
+    MethodKind: "Instance"
+    SwiftName: "dispatch(context:block:)"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinCoroutineContext> _Nonnull"
+    - Position: 1
+      Type: "id<MPLKotlinx_coroutines_coreRunnable> _Nonnull"
+  - Selector: "dispatchYieldContext:block:"
+    MethodKind: "Instance"
+    SwiftName: "dispatchYield(context:block:)"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinCoroutineContext> _Nonnull"
+    - Position: 1
+      Type: "id<MPLKotlinx_coroutines_coreRunnable> _Nonnull"
+  - Selector: "interceptContinuationContinuation:"
+    MethodKind: "Instance"
+    SwiftName: "interceptContinuation(continuation:)"
+    ResultType: "id<MPLKotlinContinuation> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinContinuation> _Nonnull"
+  - Selector: "isDispatchNeededContext:"
+    MethodKind: "Instance"
+    SwiftName: "isDispatchNeeded(context:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinCoroutineContext> _Nonnull"
+  - Selector: "limitedParallelismParallelism:"
+    MethodKind: "Instance"
+    SwiftName: "limitedParallelism(parallelism:)"
+    ResultType: "MPLKotlinx_coroutines_coreCoroutineDispatcher * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "int32_t"
+  - Selector: "plusOther:"
+    MethodKind: "Instance"
+    SwiftName: "plus(other:)"
+    ResultType: "MPLKotlinx_coroutines_coreCoroutineDispatcher * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "MPLKotlinx_coroutines_coreCoroutineDispatcher * _Nonnull"
+  - Selector: "releaseInterceptedContinuationContinuation:"
+    MethodKind: "Instance"
+    SwiftName: "releaseInterceptedContinuation(continuation:)"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinContinuation> _Nonnull"
+  - Selector: "description"
+    MethodKind: "Instance"
+    SwiftName: "description()"
+    ResultType: "NSString * _Nonnull"
+  - Selector: "initWithKey:"
+    MethodKind: "Instance"
+    SwiftName: "init(key:)"
+    Availability: "nonswift"
+- Name: "MPLKotlinx_coroutines_coreCoroutineDispatcherKey"
+  SwiftName: "Kotlinx_coroutines_coreCoroutineDispatcher.Key"
+  Methods:
+  - Selector: "initWithBaseKey:safeCast:"
+    MethodKind: "Instance"
+    SwiftName: "init(baseKey:safeCast:)"
+    Availability: "nonswift"
+- Name: "MPLEventsDispatcher"
+  SwiftName: "EventsDispatcher"
+  Properties:
+  - Name: "listener"
+    PropertyKind: "Instance"
+    SwiftName: "listener"
+    Type: "ListenerType _Nullable"
+  Methods:
+  - Selector: "initWithListener:"
+    MethodKind: "Instance"
+    SwiftName: "init(listener:)"
+    Parameters:
+    - Position: 0
+      Type: "ListenerType _Nonnull"
+  - Selector: "init"
+    MethodKind: "Instance"
+    SwiftName: "init()"
+  - Selector: "dispatchEventBlock:"
+    MethodKind: "Instance"
+    SwiftName: "dispatchEvent(block:)"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "void (^ _Nonnull)(ListenerType _Nonnull)"
+- Name: "MPLViewModel"
+  SwiftName: "ViewModel"
+  Properties:
+  - Name: "viewModelScope"
+    PropertyKind: "Instance"
+    SwiftName: "viewModelScope"
+    Type: "id<MPLKotlinx_coroutines_coreCoroutineScope> _Nonnull"
+  Methods:
+  - Selector: "init"
+    MethodKind: "Instance"
+    SwiftName: "init()"
+  - Selector: "onCleared"
+    MethodKind: "Instance"
+    SwiftName: "onCleared()"
+    ResultType: "void"
+- Name: "MPLAssetResource"
+  SwiftName: "AssetResource"
+  Properties:
+  - Name: "originalPath"
+    PropertyKind: "Instance"
+    SwiftName: "originalPath"
+    Type: "NSString * _Nonnull"
+  - Name: "path"
+    PropertyKind: "Instance"
+    SwiftName: "path"
+    Type: "NSString * _Nonnull"
+  - Name: "url"
+    PropertyKind: "Instance"
+    SwiftName: "url"
+    Type: "NSURL * _Nonnull"
+  Methods:
+  - Selector: "initWithOriginalPath:fileName:extension:bundle:"
+    MethodKind: "Instance"
+    SwiftName: "init(originalPath:fileName:extension:bundle:)"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+    - Position: 2
+      Type: "NSString * _Nonnull"
+    - Position: 3
+      Type: "NSBundle * _Nonnull"
+  - Selector: "isEqual:"
+    MethodKind: "Instance"
+    SwiftName: "isEqual(_:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+  - Selector: "hash"
+    MethodKind: "Instance"
+    SwiftName: "hash()"
+    ResultType: "NSUInteger"
+  - Selector: "initWithFileName:extension:bundle:"
+    MethodKind: "Instance"
+    SwiftName: "init(fileName:extension:bundle:)"
+    Availability: "nonswift"
+- Name: "MPLFileResource"
+  SwiftName: "FileResource"
+  Properties:
+  - Name: "bundle"
+    PropertyKind: "Instance"
+    SwiftName: "bundle"
+    Type: "NSBundle * _Nonnull"
+  - Name: "extension"
+    PropertyKind: "Instance"
+    SwiftName: "extension"
+    Type: "NSString * _Nonnull"
+  - Name: "fileName"
+    PropertyKind: "Instance"
+    SwiftName: "fileName"
+    Type: "NSString * _Nonnull"
+  - Name: "path"
+    PropertyKind: "Instance"
+    SwiftName: "path"
+    Type: "NSString * _Nonnull"
+  - Name: "url"
+    PropertyKind: "Instance"
+    SwiftName: "url"
+    Type: "NSURL * _Nonnull"
+  Methods:
+  - Selector: "initWithFileName:extension:bundle:"
+    MethodKind: "Instance"
+    SwiftName: "init(fileName:extension:bundle:)"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+    - Position: 2
+      Type: "NSBundle * _Nonnull"
+  - Selector: "readText"
+    MethodKind: "Instance"
+    SwiftName: "readText()"
+    ResultType: "NSString * _Nonnull"
+- Name: "MPLColorResource"
+  SwiftName: "ColorResource"
+  Properties:
+  - Name: "bundle"
+    PropertyKind: "Instance"
+    SwiftName: "bundle"
+    Type: "NSBundle * _Nonnull"
+  - Name: "name"
+    PropertyKind: "Instance"
+    SwiftName: "name"
+    Type: "NSString * _Nonnull"
+  Methods:
+  - Selector: "initWithName:bundle:"
+    MethodKind: "Instance"
+    SwiftName: "init(name:bundle:)"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "NSBundle * _Nonnull"
+  - Selector: "getUIColor"
+    MethodKind: "Instance"
+    SwiftName: "getUIColor()"
+    ResultType: "UIColor * _Nonnull"
+  - Selector: "asColorDesc"
+    MethodKind: "Instance"
+    SwiftName: "asColorDesc()"
+    ResultType: "id<MPLColorDesc> _Nonnull"
+- Name: "MPLFontResource"
+  SwiftName: "FontResource"
+  Properties:
+  - Name: "bundle"
+    PropertyKind: "Instance"
+    SwiftName: "bundle"
+    Type: "NSBundle * _Nonnull"
+  - Name: "data"
+    PropertyKind: "Instance"
+    SwiftName: "data"
+    Type: "NSData * _Nonnull"
+  - Name: "filePath"
+    PropertyKind: "Instance"
+    SwiftName: "filePath"
+    Type: "NSString * _Nonnull"
+  - Name: "fontName"
+    PropertyKind: "Instance"
+    SwiftName: "fontName"
+    Type: "NSString * _Nonnull"
+  Methods:
+  - Selector: "initWithFontName:bundle:"
+    MethodKind: "Instance"
+    SwiftName: "init(fontName:bundle:)"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "NSBundle * _Nonnull"
+  - Selector: "registerFontAndReturnError:"
+    MethodKind: "Instance"
+    SwiftName: "registerFont()"
+    ResultType: "BOOL"
+  - Selector: "uiFontWithSize:"
+    MethodKind: "Instance"
+    SwiftName: "uiFont(withSize:)"
+    ResultType: "UIFont * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "double"
+- Name: "MPLImageResource"
+  SwiftName: "ImageResource"
+  Properties:
+  - Name: "assetImageName"
+    PropertyKind: "Instance"
+    SwiftName: "assetImageName"
+    Type: "NSString * _Nonnull"
+  - Name: "bundle"
+    PropertyKind: "Instance"
+    SwiftName: "bundle"
+    Type: "NSBundle * _Nonnull"
+  Methods:
+  - Selector: "initWithAssetImageName:bundle:"
+    MethodKind: "Instance"
+    SwiftName: "init(assetImageName:bundle:)"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "NSBundle * _Nonnull"
+  - Selector: "doCopyAssetImageName:bundle:"
+    MethodKind: "Instance"
+    SwiftName: "doCopy(assetImageName:bundle:)"
+    ResultType: "MPLImageResource * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "NSBundle * _Nonnull"
+  - Selector: "isEqual:"
+    MethodKind: "Instance"
+    SwiftName: "isEqual(_:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+  - Selector: "hash"
+    MethodKind: "Instance"
+    SwiftName: "hash()"
+    ResultType: "NSUInteger"
+  - Selector: "description"
+    MethodKind: "Instance"
+    SwiftName: "description()"
+    ResultType: "NSString * _Nonnull"
+  - Selector: "toUIImage"
+    MethodKind: "Instance"
+    SwiftName: "toUIImage()"
+    ResultType: "UIImage * _Nullable"
+  - Selector: "asImageDesc"
+    MethodKind: "Instance"
+    SwiftName: "asImageDesc()"
+    ResultType: "id<MPLImageDesc> _Nonnull"
+- Name: "MPLPluralsResource"
+  SwiftName: "PluralsResource"
+  Properties:
+  - Name: "bundle"
+    PropertyKind: "Instance"
+    SwiftName: "bundle"
+    Type: "NSBundle * _Nonnull"
+  - Name: "resourceId"
+    PropertyKind: "Instance"
+    SwiftName: "resourceId"
+    Type: "NSString * _Nonnull"
+  Methods:
+  - Selector: "initWithResourceId:bundle:"
+    MethodKind: "Instance"
+    SwiftName: "init(resourceId:bundle:)"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "NSBundle * _Nonnull"
+  - Selector: "formatNumber:args:"
+    MethodKind: "Instance"
+    SwiftName: "format(number:args:)"
+    ResultType: "MPLPluralFormattedStringDesc * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "int32_t"
+    - Position: 1
+      Type: "MPLKotlinArray<id> * _Nonnull"
+  - Selector: "formatNumber:args_:"
+    MethodKind: "Instance"
+    SwiftName: "format(number:args:)"
+    ResultType: "MPLPluralFormattedStringDesc * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "int32_t"
+    - Position: 1
+      Type: "NSArray<id> * _Nonnull"
+  - Selector: "descNumber:"
+    MethodKind: "Instance"
+    SwiftName: "desc(number:)"
+    ResultType: "MPLPluralStringDesc * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "int32_t"
+- Name: "MPLReadFileTextException"
+  SwiftName: "ReadFileTextException"
+  Properties:
+  - Name: "fileResource"
+    PropertyKind: "Instance"
+    SwiftName: "fileResource"
+    Type: "MPLFileResource * _Nonnull"
+  - Name: "info"
+    PropertyKind: "Instance"
+    SwiftName: "info"
+    Type: "NSString * _Nonnull"
+  Methods:
+  - Selector: "initWithFileResource:error:"
+    MethodKind: "Instance"
+    SwiftName: "init(fileResource:error:)"
+    Parameters:
+    - Position: 0
+      Type: "MPLFileResource * _Nonnull"
+    - Position: 1
+      Type: "NSError * _Nonnull"
+  - Selector: "initWithFileResource:info:"
+    MethodKind: "Instance"
+    SwiftName: "init(fileResource:info:)"
+    Parameters:
+    - Position: 0
+      Type: "MPLFileResource * _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+  - Selector: "init"
+    MethodKind: "Instance"
+    SwiftName: "init()"
+    Availability: "nonswift"
+  - Selector: "initWithMessage:"
+    MethodKind: "Instance"
+    SwiftName: "init(message:)"
+    Availability: "nonswift"
+  - Selector: "initWithMessage:cause:"
+    MethodKind: "Instance"
+    SwiftName: "init(message:cause:)"
+    Availability: "nonswift"
+  - Selector: "initWithCause:"
+    MethodKind: "Instance"
+    SwiftName: "init(cause:)"
+    Availability: "nonswift"
+- Name: "MPLResourcePlatformDetails"
+  SwiftName: "ResourcePlatformDetails"
+  Properties:
+  - Name: "nsBundle"
+    PropertyKind: "Instance"
+    SwiftName: "nsBundle"
+    Type: "NSBundle * _Nonnull"
+  Methods:
+  - Selector: "initWithNsBundle:"
+    MethodKind: "Instance"
+    SwiftName: "init(nsBundle:)"
+    Parameters:
+    - Position: 0
+      Type: "NSBundle * _Nonnull"
+- Name: "MPLStringResource"
+  SwiftName: "StringResource"
+  Properties:
+  - Name: "bundle"
+    PropertyKind: "Instance"
+    SwiftName: "bundle"
+    Type: "NSBundle * _Nonnull"
+  - Name: "resourceId"
+    PropertyKind: "Instance"
+    SwiftName: "resourceId"
+    Type: "NSString * _Nonnull"
+  Methods:
+  - Selector: "initWithResourceId:bundle:"
+    MethodKind: "Instance"
+    SwiftName: "init(resourceId:bundle:)"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "NSBundle * _Nonnull"
+  - Selector: "doCopyResourceId:bundle:"
+    MethodKind: "Instance"
+    SwiftName: "doCopy(resourceId:bundle:)"
+    ResultType: "MPLStringResource * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "NSBundle * _Nonnull"
+  - Selector: "isEqual:"
+    MethodKind: "Instance"
+    SwiftName: "isEqual(_:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+  - Selector: "hash"
+    MethodKind: "Instance"
+    SwiftName: "hash()"
+    ResultType: "NSUInteger"
+  - Selector: "description"
+    MethodKind: "Instance"
+    SwiftName: "description()"
+    ResultType: "NSString * _Nonnull"
+  - Selector: "formatArgs:"
+    MethodKind: "Instance"
+    SwiftName: "format(args:)"
+    ResultType: "MPLResourceFormattedStringDesc * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "MPLKotlinArray<id> * _Nonnull"
+  - Selector: "formatArgs_:"
+    MethodKind: "Instance"
+    SwiftName: "format(args:)"
+    ResultType: "MPLResourceFormattedStringDesc * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "NSArray<id> * _Nonnull"
+  - Selector: "desc"
+    MethodKind: "Instance"
+    SwiftName: "desc()"
+    ResultType: "MPLResourceStringDesc * _Nonnull"
+- Name: "MPLPluralFormattedStringDesc"
+  SwiftName: "PluralFormattedStringDesc"
+  Properties:
+  - Name: "args"
+    PropertyKind: "Instance"
+    SwiftName: "args"
+    Type: "NSArray<id> * _Nonnull"
+  - Name: "number"
+    PropertyKind: "Instance"
+    SwiftName: "number"
+    Type: "int32_t"
+  - Name: "pluralsRes"
+    PropertyKind: "Instance"
+    SwiftName: "pluralsRes"
+    Type: "MPLPluralsResource * _Nonnull"
+  Methods:
+  - Selector: "initWithPluralsRes:number:args:"
+    MethodKind: "Instance"
+    SwiftName: "init(pluralsRes:number:args:)"
+    Parameters:
+    - Position: 0
+      Type: "MPLPluralsResource * _Nonnull"
+    - Position: 1
+      Type: "int32_t"
+    - Position: 2
+      Type: "NSArray<id> * _Nonnull"
+  - Selector: "doCopyPluralsRes:number:args:"
+    MethodKind: "Instance"
+    SwiftName: "doCopy(pluralsRes:number:args:)"
+    ResultType: "MPLPluralFormattedStringDesc * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "MPLPluralsResource * _Nonnull"
+    - Position: 1
+      Type: "int32_t"
+    - Position: 2
+      Type: "NSArray<id> * _Nonnull"
+  - Selector: "isEqual:"
+    MethodKind: "Instance"
+    SwiftName: "isEqual(_:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+  - Selector: "hash"
+    MethodKind: "Instance"
+    SwiftName: "hash()"
+    ResultType: "NSUInteger"
+  - Selector: "localized"
+    MethodKind: "Instance"
+    SwiftName: "localized()"
+    ResultType: "NSString * _Nonnull"
+  - Selector: "description"
+    MethodKind: "Instance"
+    SwiftName: "description()"
+    ResultType: "NSString * _Nonnull"
+- Name: "MPLStringDescCompanion"
+  SwiftName: "StringDescCompanion"
+  Properties:
+  - Name: "localeType"
+    PropertyKind: "Instance"
+    SwiftName: "localeType"
+    Type: "MPLStringDescLocaleType * _Nonnull"
+  Methods:
+  - Selector: "CompositionArgs:separator:"
+    MethodKind: "Instance"
+    SwiftName: "Composition(args:separator:)"
+    ResultType: "MPLCompositionStringDesc * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "id _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nullable"
+  - Selector: "PluralPluralsRes:number:"
+    MethodKind: "Instance"
+    SwiftName: "Plural(pluralsRes:number:)"
+    ResultType: "MPLPluralStringDesc * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "MPLPluralsResource * _Nonnull"
+    - Position: 1
+      Type: "int32_t"
+  - Selector: "PluralFormattedPluralsRes:number:args:"
+    MethodKind: "Instance"
+    SwiftName: "PluralFormatted(pluralsRes:number:args:)"
+    ResultType: "MPLPluralFormattedStringDesc * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "MPLPluralsResource * _Nonnull"
+    - Position: 1
+      Type: "int32_t"
+    - Position: 2
+      Type: "MPLKotlinArray<id> * _Nonnull"
+  - Selector: "PluralFormattedPluralsRes:number:args_:"
+    MethodKind: "Instance"
+    SwiftName: "PluralFormatted(pluralsRes:number:args:)"
+    ResultType: "MPLPluralFormattedStringDesc * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "MPLPluralsResource * _Nonnull"
+    - Position: 1
+      Type: "int32_t"
+    - Position: 2
+      Type: "NSArray<id> * _Nonnull"
+  - Selector: "RawString:"
+    MethodKind: "Instance"
+    SwiftName: "Raw(string:)"
+    ResultType: "MPLRawStringDesc * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+  - Selector: "ResourceStringRes:"
+    MethodKind: "Instance"
+    SwiftName: "Resource(stringRes:)"
+    ResultType: "MPLResourceStringDesc * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "MPLStringResource * _Nonnull"
+  - Selector: "ResourceFormattedStringRes:args:"
+    MethodKind: "Instance"
+    SwiftName: "ResourceFormatted(stringRes:args:)"
+    ResultType: "MPLResourceFormattedStringDesc * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "MPLStringResource * _Nonnull"
+    - Position: 1
+      Type: "MPLKotlinArray<id> * _Nonnull"
+  - Selector: "ResourceFormattedStringRes:args_:"
+    MethodKind: "Instance"
+    SwiftName: "ResourceFormatted(stringRes:args:)"
+    ResultType: "MPLResourceFormattedStringDesc * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "MPLStringResource * _Nonnull"
+    - Position: 1
+      Type: "NSArray<id> * _Nonnull"
+- Name: "MPLStringDescLocaleType"
+  SwiftName: "StringDescLocaleType"
+  Properties:
+  - Name: "locale"
+    PropertyKind: "Instance"
+    SwiftName: "locale"
+    Type: "NSLocale * _Nonnull"
+  Methods:
+  - Selector: "getLocaleBundleRootBundle:"
+    MethodKind: "Instance"
+    SwiftName: "getLocaleBundle(rootBundle:)"
+    ResultType: "NSBundle * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "NSBundle * _Nonnull"
+- Name: "MPLStringDescLocaleTypeCustom"
+  SwiftName: "StringDescLocaleType.Custom"
+  Properties:
+  - Name: "locale"
+    PropertyKind: "Instance"
+    SwiftName: "locale"
+    Type: "NSLocale * _Nonnull"
+  Methods:
+  - Selector: "initWithLocale:"
+    MethodKind: "Instance"
+    SwiftName: "init(locale:)"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+  - Selector: "getLocaleBundleRootBundle:"
+    MethodKind: "Instance"
+    SwiftName: "getLocaleBundle(rootBundle:)"
+    ResultType: "NSBundle * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "NSBundle * _Nonnull"
+- Name: "MPLStringDescLocaleTypeSystem"
+  SwiftName: "StringDescLocaleType.System"
+  Properties:
+  - Name: "locale"
+    PropertyKind: "Instance"
+    SwiftName: "locale"
+    Type: "NSLocale * _Nonnull"
+  Methods:
+  - Selector: "isEqual:"
+    MethodKind: "Instance"
+    SwiftName: "isEqual(_:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+  - Selector: "getLocaleBundleRootBundle:"
+    MethodKind: "Instance"
+    SwiftName: "getLocaleBundle(rootBundle:)"
+    ResultType: "NSBundle * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "NSBundle * _Nonnull"
+  - Selector: "hash"
+    MethodKind: "Instance"
+    SwiftName: "hash()"
+    ResultType: "NSUInteger"
+  - Selector: "description"
+    MethodKind: "Instance"
+    SwiftName: "description()"
+    ResultType: "NSString * _Nonnull"
+- Name: "MPLResourceFormattedStringDesc"
+  SwiftName: "ResourceFormattedStringDesc"
+  Properties:
+  - Name: "args"
+    PropertyKind: "Instance"
+    SwiftName: "args"
+    Type: "NSArray<id> * _Nonnull"
+  - Name: "stringRes"
+    PropertyKind: "Instance"
+    SwiftName: "stringRes"
+    Type: "MPLStringResource * _Nonnull"
+  Methods:
+  - Selector: "initWithStringRes:args:"
+    MethodKind: "Instance"
+    SwiftName: "init(stringRes:args:)"
+    Parameters:
+    - Position: 0
+      Type: "MPLStringResource * _Nonnull"
+    - Position: 1
+      Type: "NSArray<id> * _Nonnull"
+  - Selector: "doCopyStringRes:args:"
+    MethodKind: "Instance"
+    SwiftName: "doCopy(stringRes:args:)"
+    ResultType: "MPLResourceFormattedStringDesc * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "MPLStringResource * _Nonnull"
+    - Position: 1
+      Type: "NSArray<id> * _Nonnull"
+  - Selector: "isEqual:"
+    MethodKind: "Instance"
+    SwiftName: "isEqual(_:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+  - Selector: "hash"
+    MethodKind: "Instance"
+    SwiftName: "hash()"
+    ResultType: "NSUInteger"
+  - Selector: "localized"
+    MethodKind: "Instance"
+    SwiftName: "localized()"
+    ResultType: "NSString * _Nonnull"
+  - Selector: "description"
+    MethodKind: "Instance"
+    SwiftName: "description()"
+    ResultType: "NSString * _Nonnull"
+- Name: "MPLCompositionStringDesc"
+  SwiftName: "CompositionStringDesc"
+  Properties:
+  - Name: "args"
+    PropertyKind: "Instance"
+    SwiftName: "args"
+    Type: "id _Nonnull"
+  - Name: "separator"
+    PropertyKind: "Instance"
+    SwiftName: "separator"
+    Type: "NSString * _Nullable"
+  Methods:
+  - Selector: "initWithArgs:separator:"
+    MethodKind: "Instance"
+    SwiftName: "init(args:separator:)"
+    Parameters:
+    - Position: 0
+      Type: "id _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nullable"
+  - Selector: "doCopyArgs:separator:"
+    MethodKind: "Instance"
+    SwiftName: "doCopy(args:separator:)"
+    ResultType: "MPLCompositionStringDesc * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "id _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nullable"
+  - Selector: "isEqual:"
+    MethodKind: "Instance"
+    SwiftName: "isEqual(_:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+  - Selector: "hash"
+    MethodKind: "Instance"
+    SwiftName: "hash()"
+    ResultType: "NSUInteger"
+  - Selector: "localized"
+    MethodKind: "Instance"
+    SwiftName: "localized()"
+    ResultType: "NSString * _Nonnull"
+  - Selector: "description"
+    MethodKind: "Instance"
+    SwiftName: "description()"
+    ResultType: "NSString * _Nonnull"
+- Name: "MPLPluralStringDesc"
+  SwiftName: "PluralStringDesc"
+  Properties:
+  - Name: "number"
+    PropertyKind: "Instance"
+    SwiftName: "number"
+    Type: "int32_t"
+  - Name: "pluralsRes"
+    PropertyKind: "Instance"
+    SwiftName: "pluralsRes"
+    Type: "MPLPluralsResource * _Nonnull"
+  Methods:
+  - Selector: "initWithPluralsRes:number:"
+    MethodKind: "Instance"
+    SwiftName: "init(pluralsRes:number:)"
+    Parameters:
+    - Position: 0
+      Type: "MPLPluralsResource * _Nonnull"
+    - Position: 1
+      Type: "int32_t"
+  - Selector: "doCopyPluralsRes:number:"
+    MethodKind: "Instance"
+    SwiftName: "doCopy(pluralsRes:number:)"
+    ResultType: "MPLPluralStringDesc * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "MPLPluralsResource * _Nonnull"
+    - Position: 1
+      Type: "int32_t"
+  - Selector: "isEqual:"
+    MethodKind: "Instance"
+    SwiftName: "isEqual(_:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+  - Selector: "hash"
+    MethodKind: "Instance"
+    SwiftName: "hash()"
+    ResultType: "NSUInteger"
+  - Selector: "localized"
+    MethodKind: "Instance"
+    SwiftName: "localized()"
+    ResultType: "NSString * _Nonnull"
+  - Selector: "description"
+    MethodKind: "Instance"
+    SwiftName: "description()"
+    ResultType: "NSString * _Nonnull"
+- Name: "MPLRawStringDesc"
+  SwiftName: "RawStringDesc"
+  Properties:
+  - Name: "string"
+    PropertyKind: "Instance"
+    SwiftName: "string"
+    Type: "NSString * _Nonnull"
+  Methods:
+  - Selector: "initWithString:"
+    MethodKind: "Instance"
+    SwiftName: "init(string:)"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+  - Selector: "doCopyString:"
+    MethodKind: "Instance"
+    SwiftName: "doCopy(string:)"
+    ResultType: "MPLRawStringDesc * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+  - Selector: "isEqual:"
+    MethodKind: "Instance"
+    SwiftName: "isEqual(_:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+  - Selector: "hash"
+    MethodKind: "Instance"
+    SwiftName: "hash()"
+    ResultType: "NSUInteger"
+  - Selector: "localized"
+    MethodKind: "Instance"
+    SwiftName: "localized()"
+    ResultType: "NSString * _Nonnull"
+  - Selector: "description"
+    MethodKind: "Instance"
+    SwiftName: "description()"
+    ResultType: "NSString * _Nonnull"
+- Name: "MPLResourceStringDesc"
+  SwiftName: "ResourceStringDesc"
+  Properties:
+  - Name: "stringRes"
+    PropertyKind: "Instance"
+    SwiftName: "stringRes"
+    Type: "MPLStringResource * _Nonnull"
+  Methods:
+  - Selector: "initWithStringRes:"
+    MethodKind: "Instance"
+    SwiftName: "init(stringRes:)"
+    Parameters:
+    - Position: 0
+      Type: "MPLStringResource * _Nonnull"
+  - Selector: "doCopyStringRes:"
+    MethodKind: "Instance"
+    SwiftName: "doCopy(stringRes:)"
+    ResultType: "MPLResourceStringDesc * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "MPLStringResource * _Nonnull"
+  - Selector: "isEqual:"
+    MethodKind: "Instance"
+    SwiftName: "isEqual(_:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+  - Selector: "hash"
+    MethodKind: "Instance"
+    SwiftName: "hash()"
+    ResultType: "NSUInteger"
+  - Selector: "localized"
+    MethodKind: "Instance"
+    SwiftName: "localized()"
+    ResultType: "NSString * _Nonnull"
+  - Selector: "description"
+    MethodKind: "Instance"
+    SwiftName: "description()"
+    ResultType: "NSString * _Nonnull"
+- Name: "MPLUtils"
+  SwiftName: "Utils"
+  Properties:
+  - Name: "BASE_LOCALIZATION"
+    PropertyKind: "Instance"
+    SwiftName: "BASE_LOCALIZATION"
+    Type: "NSString * _Nonnull"
+  Methods:
+  - Selector: "localizedStringStringRes:"
+    MethodKind: "Instance"
+    SwiftName: "localizedString(stringRes:)"
+    ResultType: "NSString * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "MPLStringResource * _Nonnull"
+  - Selector: "processArgsArgs:"
+    MethodKind: "Instance"
+    SwiftName: "processArgs(args:)"
+    ResultType: "MPLKotlinArray<id> * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "NSArray<id> * _Nonnull"
+  - Selector: "stringWithFormatFormat:args:"
+    MethodKind: "Instance"
+    SwiftName: "stringWithFormat(format:args:)"
+    ResultType: "NSString * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "MPLKotlinArray<id> * _Nonnull"
+- Name: "MPLColorDescCompanion"
+  SwiftName: "ColorDescCompanion"
+  Methods:
+  - Selector: "ResourceResource:"
+    MethodKind: "Instance"
+    SwiftName: "Resource(resource:)"
+    ResultType: "id<MPLColorDesc> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "MPLColorResource * _Nonnull"
+  - Selector: "SingleColor:"
+    MethodKind: "Instance"
+    SwiftName: "Single(color:)"
+    ResultType: "id<MPLColorDesc> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "MPLGraphicsColor * _Nonnull"
+  - Selector: "ThemedLightColor:darkColor:"
+    MethodKind: "Instance"
+    SwiftName: "Themed(lightColor:darkColor:)"
+    ResultType: "id<MPLColorDesc> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "MPLGraphicsColor * _Nonnull"
+    - Position: 1
+      Type: "MPLGraphicsColor * _Nonnull"
+- Name: "MPLColorDescResource"
+  SwiftName: "ColorDescResource"
+  Properties:
+  - Name: "resource"
+    PropertyKind: "Instance"
+    SwiftName: "resource"
+    Type: "MPLColorResource * _Nonnull"
+  Methods:
+  - Selector: "initWithResource:"
+    MethodKind: "Instance"
+    SwiftName: "init(resource:)"
+    Parameters:
+    - Position: 0
+      Type: "MPLColorResource * _Nonnull"
+- Name: "MPLColorDescSingle"
+  SwiftName: "ColorDescSingle"
+  Properties:
+  - Name: "color"
+    PropertyKind: "Instance"
+    SwiftName: "color"
+    Type: "MPLGraphicsColor * _Nonnull"
+  Methods:
+  - Selector: "initWithColor:"
+    MethodKind: "Instance"
+    SwiftName: "init(color:)"
+    Parameters:
+    - Position: 0
+      Type: "MPLGraphicsColor * _Nonnull"
+- Name: "MPLColorDescThemed"
+  SwiftName: "ColorDescThemed"
+  Properties:
+  - Name: "darkColor"
+    PropertyKind: "Instance"
+    SwiftName: "darkColor"
+    Type: "MPLGraphicsColor * _Nonnull"
+  - Name: "lightColor"
+    PropertyKind: "Instance"
+    SwiftName: "lightColor"
+    Type: "MPLGraphicsColor * _Nonnull"
+  Methods:
+  - Selector: "initWithLightColor:darkColor:"
+    MethodKind: "Instance"
+    SwiftName: "init(lightColor:darkColor:)"
+    Parameters:
+    - Position: 0
+      Type: "MPLGraphicsColor * _Nonnull"
+    - Position: 1
+      Type: "MPLGraphicsColor * _Nonnull"
+- Name: "MPLImageDescCompanion"
+  SwiftName: "ImageDescCompanion"
+  Methods:
+  - Selector: "ResourceResource:"
+    MethodKind: "Instance"
+    SwiftName: "Resource(resource:)"
+    ResultType: "id<MPLImageDesc> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "MPLImageResource * _Nonnull"
+  - Selector: "UrlUrl:"
+    MethodKind: "Instance"
+    SwiftName: "Url(url:)"
+    ResultType: "id<MPLImageDesc> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+- Name: "MPLImageDescResource"
+  SwiftName: "ImageDescResource"
+  Properties:
+  - Name: "resource"
+    PropertyKind: "Instance"
+    SwiftName: "resource"
+    Type: "MPLImageResource * _Nonnull"
+  Methods:
+  - Selector: "initWithResource:"
+    MethodKind: "Instance"
+    SwiftName: "init(resource:)"
+    Parameters:
+    - Position: 0
+      Type: "MPLImageResource * _Nonnull"
+  - Selector: "doCopyResource:"
+    MethodKind: "Instance"
+    SwiftName: "doCopy(resource:)"
+    ResultType: "MPLImageDescResource * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "MPLImageResource * _Nonnull"
+  - Selector: "isEqual:"
+    MethodKind: "Instance"
+    SwiftName: "isEqual(_:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+  - Selector: "hash"
+    MethodKind: "Instance"
+    SwiftName: "hash()"
+    ResultType: "NSUInteger"
+  - Selector: "description"
+    MethodKind: "Instance"
+    SwiftName: "description()"
+    ResultType: "NSString * _Nonnull"
+- Name: "MPLImageDescUrl"
+  SwiftName: "ImageDescUrl"
+  Properties:
+  - Name: "url"
+    PropertyKind: "Instance"
+    SwiftName: "url"
+    Type: "NSString * _Nonnull"
+  Methods:
+  - Selector: "initWithUrl:"
+    MethodKind: "Instance"
+    SwiftName: "init(url:)"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+  - Selector: "doCopyUrl:"
+    MethodKind: "Instance"
+    SwiftName: "doCopy(url:)"
+    ResultType: "MPLImageDescUrl * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+  - Selector: "isEqual:"
+    MethodKind: "Instance"
+    SwiftName: "isEqual(_:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+  - Selector: "hash"
+    MethodKind: "Instance"
+    SwiftName: "hash()"
+    ResultType: "NSUInteger"
+  - Selector: "description"
+    MethodKind: "Instance"
+    SwiftName: "description()"
+    ResultType: "NSString * _Nonnull"
+- Name: "MPLResourceContainerExtKt"
+  SwiftName: "ResourceContainerExtKt"
+  Methods:
+  - Selector: "getAssetByFilePath:filePath:"
+    MethodKind: "Class"
+    SwiftName: "getAssetByFilePath(_:filePath:)"
+    ResultType: "MPLAssetResource * _Nullable"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLResourceContainer> _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+  - Selector: "getImageByFileName:fileName:"
+    MethodKind: "Class"
+    SwiftName: "getImageByFileName(_:fileName:)"
+    ResultType: "MPLImageResource * _Nullable"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLResourceContainer> _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+- Name: "MPLNSBundleExtKt"
+  SwiftName: "NSBundleExtKt"
+  Properties:
+  - Name: "isBundleSearchLogEnabled"
+    PropertyKind: "Class"
+    SwiftName: "isBundleSearchLogEnabled"
+    Type: "BOOL"
+  Methods:
+  - Selector: "loadableBundle:identifier:"
+    MethodKind: "Class"
+    SwiftName: "loadableBundle(_:identifier:)"
+    ResultType: "NSBundle * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "Class _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+- Name: "MPLStringDescKt"
+  SwiftName: "StringDescKt"
+  Methods:
+  - Selector: "desc:"
+    MethodKind: "Class"
+    SwiftName: "desc(_:)"
+    ResultType: "MPLRawStringDesc * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+  - Selector: "joinToStringDesc:separator:"
+    MethodKind: "Class"
+    SwiftName: "joinToStringDesc(_:separator:)"
+    ResultType: "id<MPLStringDesc> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "id _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+  - Selector: "plus:other:"
+    MethodKind: "Class"
+    SwiftName: "plus(_:other:)"
+    ResultType: "id<MPLStringDesc> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLStringDesc> _Nonnull"
+    - Position: 1
+      Type: "id<MPLStringDesc> _Nonnull"
+- Name: "MPLColorDescExtKt"
+  SwiftName: "ColorDescExtKt"
+  Methods:
+  - Selector: "getUIColor:"
+    MethodKind: "Class"
+    SwiftName: "getUIColor(_:)"
+    ResultType: "UIColor * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLColorDesc> _Nonnull"
+- Name: "MPLImageDescUrlKt"
+  SwiftName: "ImageDescUrlKt"
+  Methods:
+  - Selector: "asImageUrl:"
+    MethodKind: "Class"
+    SwiftName: "asImageUrl(_:)"
+    ResultType: "id<MPLImageDesc> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+- Name: "MPLGraphicsColor"
+  SwiftName: "GraphicsColor"
+  Properties:
+  - Name: "alpha"
+    PropertyKind: "Instance"
+    SwiftName: "alpha"
+    Type: "int32_t"
+  - Name: "argb"
+    PropertyKind: "Instance"
+    SwiftName: "argb"
+    Type: "int64_t"
+  - Name: "blue"
+    PropertyKind: "Instance"
+    SwiftName: "blue"
+    Type: "int32_t"
+  - Name: "green"
+    PropertyKind: "Instance"
+    SwiftName: "green"
+    Type: "int32_t"
+  - Name: "red"
+    PropertyKind: "Instance"
+    SwiftName: "red"
+    Type: "int32_t"
+  - Name: "rgba"
+    PropertyKind: "Instance"
+    SwiftName: "rgba"
+    Type: "int64_t"
+  Methods:
+  - Selector: "initWithColorRGBA:"
+    MethodKind: "Instance"
+    SwiftName: "init(colorRGBA:)"
+    Parameters:
+    - Position: 0
+      Type: "int64_t"
+  - Selector: "initWithRed:green:blue:alpha:"
+    MethodKind: "Instance"
+    SwiftName: "init(red:green:blue:alpha:)"
+    Parameters:
+    - Position: 0
+      Type: "int32_t"
+    - Position: 1
+      Type: "int32_t"
+    - Position: 2
+      Type: "int32_t"
+    - Position: 3
+      Type: "int32_t"
+  - Selector: "doCopyRed:green:blue:alpha:"
+    MethodKind: "Instance"
+    SwiftName: "doCopy(red:green:blue:alpha:)"
+    ResultType: "MPLGraphicsColor * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "int32_t"
+    - Position: 1
+      Type: "int32_t"
+    - Position: 2
+      Type: "int32_t"
+    - Position: 3
+      Type: "int32_t"
+  - Selector: "isEqual:"
+    MethodKind: "Instance"
+    SwiftName: "isEqual(_:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+  - Selector: "hash"
+    MethodKind: "Instance"
+    SwiftName: "hash()"
+    ResultType: "NSUInteger"
+  - Selector: "description"
+    MethodKind: "Instance"
+    SwiftName: "description()"
+    ResultType: "NSString * _Nonnull"
+  - Selector: "asColorDesc"
+    MethodKind: "Instance"
+    SwiftName: "asColorDesc()"
+    ResultType: "id<MPLColorDesc> _Nonnull"
+- Name: "MPLGraphicsColorCompanion"
+  SwiftName: "GraphicsColor.Companion"
+- Name: "MPLSkieColdFlowIterator"
+  SwiftName: "SkieColdFlowIterator"
+  SwiftPrivate: true
+  Methods:
+  - Selector: "initWithFlow:"
+    MethodKind: "Instance"
+    SwiftName: "init(flow:)"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinx_coroutines_coreFlow> _Nonnull"
+  - Selector: "cancel"
+    MethodKind: "Instance"
+    SwiftName: "cancel()"
+    ResultType: "void"
+  - Selector: "hasNextWithCompletionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__hasNext(completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "void (^ _Nonnull)(MPLBoolean * _Nullable, NSError * _Nullable)"
+  - Selector: "next"
+    MethodKind: "Instance"
+    SwiftName: "next()"
+    ResultType: "E _Nullable"
+- Name: "MPLSkieKotlinFlow"
+  SwiftBridge: "SkieSwiftFlow"
+  SwiftName: "SkieKotlinFlow"
+  SwiftPrivate: true
+  Methods:
+  - Selector: "initWithDelegate:"
+    MethodKind: "Instance"
+    SwiftName: "init(_:)"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinx_coroutines_coreFlow> _Nonnull"
+  - Selector: "collectCollector:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__collect(collector:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinx_coroutines_coreFlowCollector> _Nonnull"
+    - Position: 1
+      Type: "void (^ _Nonnull)(NSError * _Nullable)"
+- Name: "MPLSkieKotlinMutableSharedFlow"
+  SwiftBridge: "SkieSwiftMutableSharedFlow"
+  SwiftName: "SkieKotlinMutableSharedFlow"
+  SwiftPrivate: true
+  Properties:
+  - Name: "replayCache"
+    PropertyKind: "Instance"
+    SwiftName: "replayCache"
+    Type: "NSArray<T> * _Nonnull"
+  - Name: "subscriptionCount"
+    PropertyKind: "Instance"
+    SwiftName: "subscriptionCount"
+    Type: "MPLSkieKotlinStateFlow<MPLInt *> * _Nonnull"
+  Methods:
+  - Selector: "initWithDelegate:"
+    MethodKind: "Instance"
+    SwiftName: "init(_:)"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinx_coroutines_coreMutableSharedFlow> _Nonnull"
+  - Selector: "collectCollector:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__collect(collector:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinx_coroutines_coreFlowCollector> _Nonnull"
+    - Position: 1
+      Type: "void (^ _Nonnull)(NSError * _Nullable)"
+  - Selector: "emitValue:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__emit(value:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "T _Nonnull"
+    - Position: 1
+      Type: "void (^ _Nonnull)(NSError * _Nullable)"
+  - Selector: "resetReplayCache"
+    MethodKind: "Instance"
+    SwiftName: "resetReplayCache()"
+    ResultType: "void"
+  - Selector: "tryEmitValue:"
+    MethodKind: "Instance"
+    SwiftName: "tryEmit(value:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "T _Nonnull"
+- Name: "MPLSkieKotlinMutableStateFlow"
+  SwiftBridge: "SkieSwiftMutableStateFlow"
+  SwiftName: "SkieKotlinMutableStateFlow"
+  SwiftPrivate: true
+  Properties:
+  - Name: "replayCache"
+    PropertyKind: "Instance"
+    SwiftName: "replayCache"
+    Type: "NSArray<T> * _Nonnull"
+  - Name: "subscriptionCount"
+    PropertyKind: "Instance"
+    SwiftName: "subscriptionCount"
+    Type: "MPLSkieKotlinStateFlow<MPLInt *> * _Nonnull"
+  - Name: "value"
+    PropertyKind: "Instance"
+    SwiftName: "value"
+    Type: "T _Nonnull"
+  Methods:
+  - Selector: "initWithDelegate:"
+    MethodKind: "Instance"
+    SwiftName: "init(_:)"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinx_coroutines_coreMutableStateFlow> _Nonnull"
+  - Selector: "collectCollector:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__collect(collector:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinx_coroutines_coreFlowCollector> _Nonnull"
+    - Position: 1
+      Type: "void (^ _Nonnull)(NSError * _Nullable)"
+  - Selector: "compareAndSetExpect:update:"
+    MethodKind: "Instance"
+    SwiftName: "compareAndSet(expect:update:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "T _Nonnull"
+    - Position: 1
+      Type: "T _Nonnull"
+  - Selector: "emitValue:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__emit(value:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "T _Nonnull"
+    - Position: 1
+      Type: "void (^ _Nonnull)(NSError * _Nullable)"
+  - Selector: "resetReplayCache"
+    MethodKind: "Instance"
+    SwiftName: "resetReplayCache()"
+    ResultType: "void"
+  - Selector: "tryEmitValue:"
+    MethodKind: "Instance"
+    SwiftName: "tryEmit(value:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "T _Nonnull"
+- Name: "MPLSkieKotlinOptionalFlow"
+  SwiftBridge: "SkieSwiftOptionalFlow"
+  SwiftName: "SkieKotlinOptionalFlow"
+  SwiftPrivate: true
+  Methods:
+  - Selector: "initWithDelegate:"
+    MethodKind: "Instance"
+    SwiftName: "init(_:)"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinx_coroutines_coreFlow> _Nonnull"
+  - Selector: "collectCollector:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__collect(collector:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinx_coroutines_coreFlowCollector> _Nonnull"
+    - Position: 1
+      Type: "void (^ _Nonnull)(NSError * _Nullable)"
+- Name: "MPLSkieKotlinOptionalMutableSharedFlow"
+  SwiftBridge: "SkieSwiftOptionalMutableSharedFlow"
+  SwiftName: "SkieKotlinOptionalMutableSharedFlow"
+  SwiftPrivate: true
+  Properties:
+  - Name: "replayCache"
+    PropertyKind: "Instance"
+    SwiftName: "replayCache"
+    Type: "NSArray<id> * _Nonnull"
+  - Name: "subscriptionCount"
+    PropertyKind: "Instance"
+    SwiftName: "subscriptionCount"
+    Type: "MPLSkieKotlinStateFlow<MPLInt *> * _Nonnull"
+  Methods:
+  - Selector: "initWithDelegate:"
+    MethodKind: "Instance"
+    SwiftName: "init(_:)"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinx_coroutines_coreMutableSharedFlow> _Nonnull"
+  - Selector: "collectCollector:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__collect(collector:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinx_coroutines_coreFlowCollector> _Nonnull"
+    - Position: 1
+      Type: "void (^ _Nonnull)(NSError * _Nullable)"
+  - Selector: "emitValue:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__emit(value:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "T _Nullable"
+    - Position: 1
+      Type: "void (^ _Nonnull)(NSError * _Nullable)"
+  - Selector: "resetReplayCache"
+    MethodKind: "Instance"
+    SwiftName: "resetReplayCache()"
+    ResultType: "void"
+  - Selector: "tryEmitValue:"
+    MethodKind: "Instance"
+    SwiftName: "tryEmit(value:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "T _Nullable"
+- Name: "MPLSkieKotlinOptionalMutableStateFlow"
+  SwiftBridge: "SkieSwiftOptionalMutableStateFlow"
+  SwiftName: "SkieKotlinOptionalMutableStateFlow"
+  SwiftPrivate: true
+  Properties:
+  - Name: "replayCache"
+    PropertyKind: "Instance"
+    SwiftName: "replayCache"
+    Type: "NSArray<id> * _Nonnull"
+  - Name: "subscriptionCount"
+    PropertyKind: "Instance"
+    SwiftName: "subscriptionCount"
+    Type: "MPLSkieKotlinStateFlow<MPLInt *> * _Nonnull"
+  - Name: "value"
+    PropertyKind: "Instance"
+    SwiftName: "value"
+    Type: "T _Nullable"
+  Methods:
+  - Selector: "initWithDelegate:"
+    MethodKind: "Instance"
+    SwiftName: "init(_:)"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinx_coroutines_coreMutableStateFlow> _Nonnull"
+  - Selector: "collectCollector:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__collect(collector:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinx_coroutines_coreFlowCollector> _Nonnull"
+    - Position: 1
+      Type: "void (^ _Nonnull)(NSError * _Nullable)"
+  - Selector: "compareAndSetExpect:update:"
+    MethodKind: "Instance"
+    SwiftName: "compareAndSet(expect:update:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "T _Nullable"
+    - Position: 1
+      Type: "T _Nullable"
+  - Selector: "emitValue:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__emit(value:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "T _Nullable"
+    - Position: 1
+      Type: "void (^ _Nonnull)(NSError * _Nullable)"
+  - Selector: "resetReplayCache"
+    MethodKind: "Instance"
+    SwiftName: "resetReplayCache()"
+    ResultType: "void"
+  - Selector: "tryEmitValue:"
+    MethodKind: "Instance"
+    SwiftName: "tryEmit(value:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "T _Nullable"
+- Name: "MPLSkieKotlinOptionalSharedFlow"
+  SwiftBridge: "SkieSwiftOptionalSharedFlow"
+  SwiftName: "SkieKotlinOptionalSharedFlow"
+  SwiftPrivate: true
+  Properties:
+  - Name: "replayCache"
+    PropertyKind: "Instance"
+    SwiftName: "replayCache"
+    Type: "NSArray<id> * _Nonnull"
+  Methods:
+  - Selector: "initWithDelegate:"
+    MethodKind: "Instance"
+    SwiftName: "init(_:)"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinx_coroutines_coreSharedFlow> _Nonnull"
+  - Selector: "collectCollector:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__collect(collector:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinx_coroutines_coreFlowCollector> _Nonnull"
+    - Position: 1
+      Type: "void (^ _Nonnull)(NSError * _Nullable)"
+- Name: "MPLSkieKotlinOptionalStateFlow"
+  SwiftBridge: "SkieSwiftOptionalStateFlow"
+  SwiftName: "SkieKotlinOptionalStateFlow"
+  SwiftPrivate: true
+  Properties:
+  - Name: "replayCache"
+    PropertyKind: "Instance"
+    SwiftName: "replayCache"
+    Type: "NSArray<id> * _Nonnull"
+  - Name: "value"
+    PropertyKind: "Instance"
+    SwiftName: "value"
+    Type: "T _Nullable"
+  Methods:
+  - Selector: "initWithDelegate:"
+    MethodKind: "Instance"
+    SwiftName: "init(_:)"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinx_coroutines_coreStateFlow> _Nonnull"
+  - Selector: "collectCollector:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__collect(collector:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinx_coroutines_coreFlowCollector> _Nonnull"
+    - Position: 1
+      Type: "void (^ _Nonnull)(NSError * _Nullable)"
+- Name: "MPLSkieKotlinSharedFlow"
+  SwiftBridge: "SkieSwiftSharedFlow"
+  SwiftName: "SkieKotlinSharedFlow"
+  SwiftPrivate: true
+  Properties:
+  - Name: "replayCache"
+    PropertyKind: "Instance"
+    SwiftName: "replayCache"
+    Type: "NSArray<T> * _Nonnull"
+  Methods:
+  - Selector: "initWithDelegate:"
+    MethodKind: "Instance"
+    SwiftName: "init(_:)"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinx_coroutines_coreSharedFlow> _Nonnull"
+  - Selector: "collectCollector:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__collect(collector:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinx_coroutines_coreFlowCollector> _Nonnull"
+    - Position: 1
+      Type: "void (^ _Nonnull)(NSError * _Nullable)"
+- Name: "MPLSkieKotlinStateFlow"
+  SwiftBridge: "SkieSwiftStateFlow"
+  SwiftName: "SkieKotlinStateFlow"
+  SwiftPrivate: true
+  Properties:
+  - Name: "replayCache"
+    PropertyKind: "Instance"
+    SwiftName: "replayCache"
+    Type: "NSArray<T> * _Nonnull"
+  - Name: "value"
+    PropertyKind: "Instance"
+    SwiftName: "value"
+    Type: "T _Nonnull"
+  Methods:
+  - Selector: "initWithDelegate:"
+    MethodKind: "Instance"
+    SwiftName: "init(_:)"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinx_coroutines_coreStateFlow> _Nonnull"
+  - Selector: "collectCollector:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__collect(collector:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinx_coroutines_coreFlowCollector> _Nonnull"
+    - Position: 1
+      Type: "void (^ _Nonnull)(NSError * _Nullable)"
+- Name: "MPLSkie_CancellationHandler"
+  SwiftName: "Skie_CancellationHandler"
+  SwiftPrivate: true
+  Methods:
+  - Selector: "init"
+    MethodKind: "Instance"
+    SwiftName: "init()"
+  - Selector: "cancel"
+    MethodKind: "Instance"
+    SwiftName: "cancel()"
+    ResultType: "void"
+- Name: "MPLSkie_SuspendHandler"
+  SwiftName: "Skie_SuspendHandler"
+  SwiftPrivate: true
+  Methods:
+  - Selector: "initWithCancellationHandler:dispatcherDelegate:onResult:"
+    MethodKind: "Instance"
+    SwiftName: "init(cancellationHandler:dispatcherDelegate:onResult:)"
+    Parameters:
+    - Position: 0
+      Type: "MPLSkie_CancellationHandler * _Nonnull"
+    - Position: 1
+      Type: "id<MPLSkie_DispatcherDelegate> _Nonnull"
+    - Position: 2
+      Type: "void (^ _Nonnull)(MPLSkie_SuspendResult * _Nonnull)"
+- Name: "MPLSkie_SuspendResult"
+  SwiftName: "Skie_SuspendResult"
+  SwiftPrivate: true
+- Name: "MPLSkie_SuspendResultSuccess"
+  SwiftName: "Skie_SuspendResult.Success"
+  SwiftPrivate: true
+  Properties:
+  - Name: "value"
+    PropertyKind: "Instance"
+    SwiftName: "value"
+    Type: "id _Nullable"
+  Methods:
+  - Selector: "initWithValue:"
+    MethodKind: "Instance"
+    SwiftName: "init(value:)"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+  - Selector: "doCopyValue:"
+    MethodKind: "Instance"
+    SwiftName: "doCopy(value:)"
+    ResultType: "MPLSkie_SuspendResultSuccess * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+  - Selector: "isEqual:"
+    MethodKind: "Instance"
+    SwiftName: "isEqual(_:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+  - Selector: "hash"
+    MethodKind: "Instance"
+    SwiftName: "hash()"
+    ResultType: "NSUInteger"
+  - Selector: "description"
+    MethodKind: "Instance"
+    SwiftName: "description()"
+    ResultType: "NSString * _Nonnull"
+- Name: "MPLSkie_SuspendResultError"
+  SwiftName: "Skie_SuspendResult.Error"
+  SwiftPrivate: true
+  Properties:
+  - Name: "error"
+    PropertyKind: "Instance"
+    SwiftName: "error"
+    Type: "NSError * _Nonnull"
+  Methods:
+  - Selector: "initWithError:"
+    MethodKind: "Instance"
+    SwiftName: "init(error:)"
+    Parameters:
+    - Position: 0
+      Type: "NSError * _Nonnull"
+  - Selector: "doCopyError:"
+    MethodKind: "Instance"
+    SwiftName: "doCopy(error:)"
+    ResultType: "MPLSkie_SuspendResultError * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "NSError * _Nonnull"
+  - Selector: "isEqual:"
+    MethodKind: "Instance"
+    SwiftName: "isEqual(_:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+  - Selector: "hash"
+    MethodKind: "Instance"
+    SwiftName: "hash()"
+    ResultType: "NSUInteger"
+  - Selector: "description"
+    MethodKind: "Instance"
+    SwiftName: "description()"
+    ResultType: "NSString * _Nonnull"
+- Name: "MPLSkie_SuspendResultCanceled"
+  SwiftName: "Skie_SuspendResult.Canceled"
+  SwiftPrivate: true
+- Name: "MPLResourceExtension"
+  SwiftName: "ResourceExtension"
+  Methods:
+  - Selector: "init"
+    MethodKind: "Instance"
+    SwiftName: "init()"
+  - Selector: "getStringDescId:"
+    MethodKind: "Instance"
+    SwiftName: "getStringDesc(id:)"
+    ResultType: "Skie__TypeDef__0__id_MPLStringDesc_"
+    Parameters:
+    - Position: 0
+      Type: "MPLStringResource * _Nonnull"
+- Name: "MPLHomeViewModel"
+  SwiftName: "HomeViewModel"
+  Properties:
+  - Name: "actions"
+    PropertyKind: "Instance"
+    SwiftName: "actions"
+    Type: "MPLCFlow<id<MPLHomeViewModelAction>> * _Nonnull"
+  - Name: "isButtonEnabled"
+    PropertyKind: "Instance"
+    SwiftName: "isButtonEnabled"
+    Type: "MPLCStateFlow<MPLBoolean *> * _Nonnull"
+  - Name: "isLoading"
+    PropertyKind: "Instance"
+    SwiftName: "isLoading"
+    Type: "MPLCStateFlow<MPLBoolean *> * _Nonnull"
+  - Name: "login"
+    PropertyKind: "Instance"
+    SwiftName: "login"
+    Type: "MPLCMutableStateFlow<NSString *> * _Nonnull"
+  Methods:
+  - Selector: "init"
+    MethodKind: "Instance"
+    SwiftName: "init()"
+  - Selector: "goBack"
+    MethodKind: "Instance"
+    SwiftName: "goBack()"
+    ResultType: "void"
+- Name: "MPLHomeViewModelActionGoBack"
+  SwiftName: "HomeViewModelActionGoBack"
+  Methods:
+  - Selector: "isEqual:"
+    MethodKind: "Instance"
+    SwiftName: "isEqual(_:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+  - Selector: "hash"
+    MethodKind: "Instance"
+    SwiftName: "hash()"
+    ResultType: "NSUInteger"
+  - Selector: "description"
+    MethodKind: "Instance"
+    SwiftName: "description()"
+    ResultType: "NSString * _Nonnull"
+- Name: "MPLLoginViewModel"
+  SwiftName: "LoginViewModel"
+  Properties:
+  - Name: "_isAlertShown"
+    PropertyKind: "Instance"
+    SwiftName: "_isAlertShown"
+    Type: "MPLSkieKotlinMutableStateFlow<MPLBoolean *> * _Nonnull"
+  - Name: "_isButtonEnabled"
+    PropertyKind: "Instance"
+    SwiftName: "_isButtonEnabled"
+    Type: "MPLSkieKotlinMutableStateFlow<MPLBoolean *> * _Nonnull"
+  - Name: "actions"
+    PropertyKind: "Instance"
+    SwiftName: "actions"
+    Type: "MPLSkieKotlinFlow<id<MPLLoginViewModelAction>> * _Nonnull"
+  - Name: "isAlertShown"
+    PropertyKind: "Instance"
+    SwiftName: "isAlertShown"
+    Type: "MPLSkieKotlinMutableStateFlow<MPLBoolean *> * _Nonnull"
+  - Name: "isButtonEnabled"
+    PropertyKind: "Instance"
+    SwiftName: "isButtonEnabled"
+    Type: "MPLSkieKotlinMutableStateFlow<MPLBoolean *> * _Nonnull"
+  - Name: "isLoading"
+    PropertyKind: "Instance"
+    SwiftName: "isLoading"
+    Type: "MPLSkieKotlinMutableStateFlow<MPLBoolean *> * _Nonnull"
+  - Name: "login"
+    PropertyKind: "Instance"
+    SwiftName: "login"
+    Type: "MPLSkieKotlinMutableStateFlow<NSString *> * _Nonnull"
+  - Name: "password"
+    PropertyKind: "Instance"
+    SwiftName: "password"
+    Type: "MPLSkieKotlinMutableStateFlow<NSString *> * _Nonnull"
+  Methods:
+  - Selector: "init"
+    MethodKind: "Instance"
+    SwiftName: "init()"
+  - Selector: "hideAlert"
+    MethodKind: "Instance"
+    SwiftName: "hideAlert()"
+    ResultType: "void"
+  - Selector: "onLoginPressed"
+    MethodKind: "Instance"
+    SwiftName: "onLoginPressed()"
+    ResultType: "void"
+  - Selector: "onShowNextScreen"
+    MethodKind: "Instance"
+    SwiftName: "onShowNextScreen()"
+    ResultType: "void"
+  - Selector: "setLoginValue:"
+    MethodKind: "Instance"
+    SwiftName: "setLogin(value:)"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+  - Selector: "setPasswordValue:"
+    MethodKind: "Instance"
+    SwiftName: "setPassword(value:)"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+- Name: "MPLLoginViewModelActionShowNext"
+  SwiftName: "LoginViewModelActionShowNext"
+  Methods:
+  - Selector: "isEqual:"
+    MethodKind: "Instance"
+    SwiftName: "isEqual(_:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+  - Selector: "hash"
+    MethodKind: "Instance"
+    SwiftName: "hash()"
+    ResultType: "NSUInteger"
+  - Selector: "description"
+    MethodKind: "Instance"
+    SwiftName: "description()"
+    ResultType: "NSString * _Nonnull"
+- Name: "MPLViewModelState"
+  SwiftName: "ViewModelState"
+- Name: "MPLViewModelStateIdle"
+  SwiftName: "ViewModelState.Idle"
+- Name: "MPLViewModelStateLoading"
+  SwiftName: "ViewModelState.Loading"
+  Properties:
+  - Name: "message"
+    PropertyKind: "Instance"
+    SwiftName: "message"
+    Type: "NSString * _Nullable"
+  Methods:
+  - Selector: "initWithMessage:"
+    MethodKind: "Instance"
+    SwiftName: "init(message:)"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nullable"
+  - Selector: "doCopyMessage:"
+    MethodKind: "Instance"
+    SwiftName: "doCopy(message:)"
+    ResultType: "MPLViewModelStateLoading * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nullable"
+  - Selector: "isEqual:"
+    MethodKind: "Instance"
+    SwiftName: "isEqual(_:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+  - Selector: "hash"
+    MethodKind: "Instance"
+    SwiftName: "hash()"
+    ResultType: "NSUInteger"
+  - Selector: "description"
+    MethodKind: "Instance"
+    SwiftName: "description()"
+    ResultType: "NSString * _Nonnull"
+- Name: "MPLViewModelStateError"
+  SwiftName: "ViewModelState.Error"
+  Properties:
+  - Name: "message"
+    PropertyKind: "Instance"
+    SwiftName: "message"
+    Type: "NSString * _Nullable"
+  Methods:
+  - Selector: "initWithMessage:"
+    MethodKind: "Instance"
+    SwiftName: "init(message:)"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nullable"
+  - Selector: "doCopyMessage:"
+    MethodKind: "Instance"
+    SwiftName: "doCopy(message:)"
+    ResultType: "MPLViewModelStateError * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nullable"
+  - Selector: "isEqual:"
+    MethodKind: "Instance"
+    SwiftName: "isEqual(_:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+  - Selector: "hash"
+    MethodKind: "Instance"
+    SwiftName: "hash()"
+    ResultType: "NSUInteger"
+  - Selector: "description"
+    MethodKind: "Instance"
+    SwiftName: "description()"
+    ResultType: "NSString * _Nonnull"
+- Name: "MPLIOSPlatform"
+  SwiftName: "IOSPlatform"
+  Properties:
+  - Name: "name"
+    PropertyKind: "Instance"
+    SwiftName: "name"
+    Type: "NSString * _Nonnull"
+  Methods:
+  - Selector: "init"
+    MethodKind: "Instance"
+    SwiftName: "init()"
+- Name: "MPLMR"
+  SwiftName: "MR"
+- Name: "MPLMRStrings"
+  SwiftName: "MR.strings"
+  Properties:
+  - Name: "__platformDetails"
+    PropertyKind: "Instance"
+    SwiftName: "__platformDetails"
+    Type: "MPLResourcePlatformDetails * _Nonnull"
+  - Name: "button_no"
+    PropertyKind: "Instance"
+    SwiftName: "button_no"
+    Type: "MPLStringResource * _Nonnull"
+  - Name: "button_yes"
+    PropertyKind: "Instance"
+    SwiftName: "button_yes"
+    Type: "MPLStringResource * _Nonnull"
+  - Name: "go_back"
+    PropertyKind: "Instance"
+    SwiftName: "go_back"
+    Type: "MPLStringResource * _Nonnull"
+  - Name: "log_in"
+    PropertyKind: "Instance"
+    SwiftName: "log_in"
+    Type: "MPLStringResource * _Nonnull"
+  - Name: "login"
+    PropertyKind: "Instance"
+    SwiftName: "login"
+    Type: "MPLStringResource * _Nonnull"
+  - Name: "my_string"
+    PropertyKind: "Instance"
+    SwiftName: "my_string"
+    Type: "MPLStringResource * _Nonnull"
+  - Name: "password"
+    PropertyKind: "Instance"
+    SwiftName: "password"
+    Type: "MPLStringResource * _Nonnull"
+  - Name: "show_next_screen"
+    PropertyKind: "Instance"
+    SwiftName: "show_next_screen"
+    Type: "MPLStringResource * _Nonnull"
+  Methods:
+  - Selector: "values"
+    MethodKind: "Instance"
+    SwiftName: "values()"
+    ResultType: "NSArray<MPLStringResource *> * _Nonnull"
+- Name: "MPLPlatform_iosKt"
+  SwiftName: "Platform_iosKt"
+  Methods:
+  - Selector: "getPlatform"
+    MethodKind: "Class"
+    SwiftName: "getPlatform()"
+    ResultType: "id<MPLPlatform> _Nonnull"
+- Name: "MPL__SkieSuspendWrappersKt"
+  SwiftName: "__SkieSuspendWrappersKt"
+  Availability: "nonswift"
+  Methods:
+  - Selector: "Skie_Suspend__0__emitDispatchReceiver:value:suspendHandler:"
+    MethodKind: "Class"
+    SwiftName: "Skie_Suspend__0__emit(dispatchReceiver:value:suspendHandler:)"
+    Availability: "nonswift"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinx_coroutines_coreFlowCollector> _Nonnull"
+    - Position: 1
+      Type: "id _Nullable"
+    - Position: 2
+      Type: "MPLSkie_SuspendHandler * _Nonnull"
+  - Selector: "Skie_Suspend__1__collectDispatchReceiver:collector:suspendHandler:"
+    MethodKind: "Class"
+    SwiftName: "Skie_Suspend__1__collect(dispatchReceiver:collector:suspendHandler:)"
+    Availability: "nonswift"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinx_coroutines_coreFlow> _Nonnull"
+    - Position: 1
+      Type: "id<MPLKotlinx_coroutines_coreFlowCollector> _Nonnull"
+    - Position: 2
+      Type: "MPLSkie_SuspendHandler * _Nonnull"
+  - Selector: "Skie_Suspend__2__hasNextDispatchReceiver:suspendHandler:"
+    MethodKind: "Class"
+    SwiftName: "Skie_Suspend__2__hasNext(dispatchReceiver:suspendHandler:)"
+    Availability: "nonswift"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "MPLSkieColdFlowIterator<id> * _Nonnull"
+    - Position: 1
+      Type: "MPLSkie_SuspendHandler * _Nonnull"
+Protocols:
+- Name: "MPLKotlinContinuation"
+  SwiftName: "KotlinContinuation"
+  Properties:
+  - Name: "context"
+    PropertyKind: "Instance"
+    SwiftName: "context"
+    Type: "id<MPLKotlinCoroutineContext> _Nonnull"
+  Methods:
+  - Selector: "resumeWithResult:"
+    MethodKind: "Instance"
+    SwiftName: "resumeWith(result:)"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+- Name: "MPLKotlinCoroutineContext"
+  SwiftName: "KotlinCoroutineContext"
+  Methods:
+  - Selector: "foldInitial:operation:"
+    MethodKind: "Instance"
+    SwiftName: "fold(initial:operation:)"
+    ResultType: "id _Nullable"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+    - Position: 1
+      Type: "id _Nullable (^ _Nonnull)(id _Nullable, id<MPLKotlinCoroutineContextElement> _Nonnull)"
+  - Selector: "getKey:"
+    MethodKind: "Instance"
+    SwiftName: "get(key:)"
+    ResultType: "id<MPLKotlinCoroutineContextElement> _Nullable"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinCoroutineContextKey> _Nonnull"
+  - Selector: "minusKeyKey:"
+    MethodKind: "Instance"
+    SwiftName: "minusKey(key:)"
+    ResultType: "id<MPLKotlinCoroutineContext> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinCoroutineContextKey> _Nonnull"
+  - Selector: "plusContext:"
+    MethodKind: "Instance"
+    SwiftName: "plus(context:)"
+    ResultType: "id<MPLKotlinCoroutineContext> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinCoroutineContext> _Nonnull"
+- Name: "MPLKotlinCoroutineContextKey"
+  SwiftName: "KotlinCoroutineContextKey"
+- Name: "MPLKotlinCoroutineContextElement"
+  SwiftName: "KotlinCoroutineContextElement"
+  Properties:
+  - Name: "key"
+    PropertyKind: "Instance"
+    SwiftName: "key"
+    Type: "id<MPLKotlinCoroutineContextKey> _Nonnull"
+  Methods:
+  - Selector: "foldInitial:operation:"
+    MethodKind: "Instance"
+    SwiftName: "fold(initial:operation:)"
+    ResultType: "id _Nullable"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+    - Position: 1
+      Type: "id _Nullable (^ _Nonnull)(id _Nullable, id<MPLKotlinCoroutineContextElement> _Nonnull)"
+  - Selector: "getKey:"
+    MethodKind: "Instance"
+    SwiftName: "get(key:)"
+    ResultType: "id<MPLKotlinCoroutineContextElement> _Nullable"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinCoroutineContextKey> _Nonnull"
+  - Selector: "minusKeyKey:"
+    MethodKind: "Instance"
+    SwiftName: "minusKey(key:)"
+    ResultType: "id<MPLKotlinCoroutineContext> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinCoroutineContextKey> _Nonnull"
+- Name: "MPLKotlinContinuationInterceptor"
+  SwiftName: "KotlinContinuationInterceptor"
+  Methods:
+  - Selector: "getKey:"
+    MethodKind: "Instance"
+    SwiftName: "get(key:)"
+    ResultType: "id<MPLKotlinCoroutineContextElement> _Nullable"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinCoroutineContextKey> _Nonnull"
+  - Selector: "interceptContinuationContinuation:"
+    MethodKind: "Instance"
+    SwiftName: "interceptContinuation(continuation:)"
+    ResultType: "id<MPLKotlinContinuation> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinContinuation> _Nonnull"
+  - Selector: "minusKeyKey:"
+    MethodKind: "Instance"
+    SwiftName: "minusKey(key:)"
+    ResultType: "id<MPLKotlinCoroutineContext> _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinCoroutineContextKey> _Nonnull"
+  - Selector: "releaseInterceptedContinuationContinuation:"
+    MethodKind: "Instance"
+    SwiftName: "releaseInterceptedContinuation(continuation:)"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinContinuation> _Nonnull"
+- Name: "MPLKotlinIterator"
+  SwiftName: "KotlinIterator"
+  Methods:
+  - Selector: "hasNext"
+    MethodKind: "Instance"
+    SwiftName: "hasNext()"
+    ResultType: "BOOL"
+  - Selector: "next"
+    MethodKind: "Instance"
+    SwiftName: "next()"
+    ResultType: "id _Nullable"
+- Name: "MPLDisposableHandle"
+  SwiftName: "DisposableHandle"
+- Name: "MPLKotlinx_coroutines_coreRunnable"
+  SwiftName: "Kotlinx_coroutines_coreRunnable"
+  Methods:
+  - Selector: "run"
+    MethodKind: "Instance"
+    SwiftName: "run()"
+    ResultType: "void"
+- Name: "MPLKotlinx_coroutines_coreCoroutineScope"
+  SwiftName: "Kotlinx_coroutines_coreCoroutineScope"
+  Properties:
+  - Name: "coroutineContext"
+    PropertyKind: "Instance"
+    SwiftName: "coroutineContext"
+    Type: "id<MPLKotlinCoroutineContext> _Nonnull"
+- Name: "MPLKotlinx_coroutines_coreDisposableHandle"
+  SwiftName: "Kotlinx_coroutines_coreDisposableHandle"
+  Methods:
+  - Selector: "dispose"
+    MethodKind: "Instance"
+    SwiftName: "dispose()"
+    ResultType: "void"
+- Name: "MPLKotlinx_coroutines_coreFlowCollector"
+  SwiftName: "Kotlinx_coroutines_coreFlowCollector"
+  Methods:
+  - Selector: "emitValue:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__emit(value:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+    - Position: 1
+      Type: "void (^ _Nonnull)(NSError * _Nullable)"
+- Name: "MPLKotlinx_coroutines_coreFlow"
+  SwiftName: "Kotlinx_coroutines_coreFlow"
+  Methods:
+  - Selector: "collectCollector:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__collect(collector:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinx_coroutines_coreFlowCollector> _Nonnull"
+    - Position: 1
+      Type: "void (^ _Nonnull)(NSError * _Nullable)"
+- Name: "MPLKotlinx_coroutines_coreStateFlow"
+  SwiftName: "Kotlinx_coroutines_coreStateFlow"
+  Properties:
+  - Name: "value"
+    PropertyKind: "Instance"
+    SwiftName: "value"
+    Type: "id _Nullable"
+- Name: "MPLKotlinx_coroutines_coreSharedFlow"
+  SwiftName: "Kotlinx_coroutines_coreSharedFlow"
+  Properties:
+  - Name: "replayCache"
+    PropertyKind: "Instance"
+    SwiftName: "replayCache"
+    Type: "NSArray<id> * _Nonnull"
+  Methods:
+  - Selector: "collectCollector:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__collect(collector:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinx_coroutines_coreFlowCollector> _Nonnull"
+    - Position: 1
+      Type: "void (^ _Nonnull)(NSError * _Nullable)"
+- Name: "MPLKotlinx_coroutines_coreMutableStateFlow"
+  SwiftName: "Kotlinx_coroutines_coreMutableStateFlow"
+  Properties:
+  - Name: "value"
+    PropertyKind: "Instance"
+    SwiftName: "value"
+    Type: "id _Nullable"
+  Methods:
+  - Selector: "compareAndSetExpect:update:"
+    MethodKind: "Instance"
+    SwiftName: "compareAndSet(expect:update:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+    - Position: 1
+      Type: "id _Nullable"
+- Name: "MPLKotlinx_coroutines_coreMutableSharedFlow"
+  SwiftName: "Kotlinx_coroutines_coreMutableSharedFlow"
+  Properties:
+  - Name: "subscriptionCount"
+    PropertyKind: "Instance"
+    SwiftName: "subscriptionCount"
+    Type: "MPLSkieKotlinStateFlow<MPLInt *> * _Nonnull"
+  Methods:
+  - Selector: "emitValue:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__emit(value:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+    - Position: 1
+      Type: "void (^ _Nonnull)(NSError * _Nullable)"
+  - Selector: "resetReplayCache"
+    MethodKind: "Instance"
+    SwiftName: "resetReplayCache()"
+    ResultType: "void"
+  - Selector: "tryEmitValue:"
+    MethodKind: "Instance"
+    SwiftName: "tryEmit(value:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+- Name: "MPLEventsDispatcherOwner"
+  SwiftName: "EventsDispatcherOwner"
+  Properties:
+  - Name: "eventsDispatcher"
+    PropertyKind: "Instance"
+    SwiftName: "eventsDispatcher"
+    Type: "MPLEventsDispatcher<id> * _Nonnull"
+- Name: "MPLResourceContainer"
+  SwiftName: "ResourceContainer"
+  Properties:
+  - Name: "__platformDetails"
+    PropertyKind: "Instance"
+    SwiftName: "__platformDetails"
+    Type: "MPLResourcePlatformDetails * _Nonnull"
+  Methods:
+  - Selector: "values"
+    MethodKind: "Instance"
+    SwiftName: "values()"
+    ResultType: "NSArray<id> * _Nonnull"
+- Name: "MPLStringDesc"
+  SwiftName: "StringDesc"
+  Methods:
+  - Selector: "localized"
+    MethodKind: "Instance"
+    SwiftName: "localized()"
+    ResultType: "NSString * _Nonnull"
+- Name: "MPLColorDesc"
+  SwiftName: "ColorDesc"
+- Name: "MPLImageDesc"
+  SwiftName: "ImageDesc"
+- Name: "MPLSkie_DispatcherDelegate"
+  SwiftName: "Skie_DispatcherDelegate"
+  SwiftPrivate: true
+  Methods:
+  - Selector: "dispatchBlock:"
+    MethodKind: "Instance"
+    SwiftName: "dispatch(block:)"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<MPLKotlinx_coroutines_coreRunnable> _Nonnull"
+- Name: "MPLHomeViewModelAction"
+  SwiftName: "HomeViewModelAction"
+- Name: "MPLLoginViewModelAction"
+  SwiftName: "LoginViewModelAction"
+- Name: "MPLPlatform"
+  SwiftName: "Platform"
+  Properties:
+  - Name: "name"
+    PropertyKind: "Instance"
+    SwiftName: "name"
+    Type: "NSString * _Nonnull"

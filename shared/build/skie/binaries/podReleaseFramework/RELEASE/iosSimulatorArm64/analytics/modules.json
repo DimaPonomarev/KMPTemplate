@@ -1,0 +1,684 @@
+[
+    {
+        "id": "6c68381b6df5a940cfb0baba81a6bc842c8ab29d3e7fb668f358dbedcc0d7d80",
+        "version": null,
+        "type": "BuiltIn",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 15,
+                "callableMembers": 43
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 231,
+                "callableMembers": 2299
+            },
+            "nonExportableDeclarations": {
+                "classes": 452,
+                "callableMembers": 2212
+            },
+            "overriddenCallableMembers": 4454,
+            "numberOfIrElements": 114060
+        }
+    },
+    {
+        "id": "3e839308cf373c0a92490ad3b88550af51f8019d3529f4f058e1de21c280f048",
+        "version": null,
+        "type": "Local",
+        "isExported": true,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 4,
+                "callableMembers": 28
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "nonExportableDeclarations": {
+                "classes": 2,
+                "callableMembers": 17
+            },
+            "overriddenCallableMembers": 81,
+            "numberOfIrElements": 1117
+        }
+    },
+    {
+        "id": "229b6eade7b9a3f568a635cf4048fe9e55392f4679cfbf2976ddcb2da6287404",
+        "version": null,
+        "type": "Local",
+        "isExported": true,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 3,
+                "callableMembers": 8
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 2
+            },
+            "overriddenCallableMembers": 9,
+            "numberOfIrElements": 201
+        }
+    },
+    {
+        "id": "48376f41deeb82a6c967b5bcdc77ae16b6f806cb2087ec4278d940089793e0c0",
+        "version": null,
+        "type": "Local",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 3
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "overriddenCallableMembers": 0,
+            "numberOfIrElements": 55
+        }
+    },
+    {
+        "id": "083f117abd7d13565accdbe77a8706e5dc52c401e8a92704359907738bf9e466",
+        "version": null,
+        "type": "Local",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "overriddenCallableMembers": 0,
+            "numberOfIrElements": 18
+        }
+    },
+    {
+        "id": "cca594a34276448133253cac877b1427da280597e15c2f839c1247c4efd155b2",
+        "version": null,
+        "type": "Local",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 62,
+                "callableMembers": 195
+            },
+            "nonExportableDeclarations": {
+                "classes": 103,
+                "callableMembers": 852
+            },
+            "overriddenCallableMembers": 817,
+            "numberOfIrElements": 29442
+        }
+    },
+    {
+        "id": "d6525fe95aa97d765ba63754b6d4dd753a7e6e9096e455507f0500c3cf8c9a9b",
+        "version": null,
+        "type": "Local",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 1
+            },
+            "nonExportableDeclarations": {
+                "classes": 1,
+                "callableMembers": 9
+            },
+            "overriddenCallableMembers": 3,
+            "numberOfIrElements": 204
+        }
+    },
+    {
+        "id": "eef0bd6c340849201f391d5ea357e287912074d1ef6eb126648552116cacb2a4",
+        "version": null,
+        "type": "Local",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 7,
+                "callableMembers": 32
+            },
+            "nonExportableDeclarations": {
+                "classes": 31,
+                "callableMembers": 204
+            },
+            "overriddenCallableMembers": 220,
+            "numberOfIrElements": 7320
+        }
+    },
+    {
+        "id": "4dfacb31a58a2ca97ce281177e2199bc79123bb8a1efd7be447c902556f534ba",
+        "version": null,
+        "type": "Local",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 44,
+                "callableMembers": 218
+            },
+            "nonExportableDeclarations": {
+                "classes": 15,
+                "callableMembers": 192
+            },
+            "overriddenCallableMembers": 298,
+            "numberOfIrElements": 10473
+        }
+    },
+    {
+        "id": "6d78aa600dc286faf10ab1ee61d188f6aad1d2658d2bf6e0fa90683a12c88ea5",
+        "version": null,
+        "type": "Local",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 179,
+                "callableMembers": 1025
+            },
+            "nonExportableDeclarations": {
+                "classes": 153,
+                "callableMembers": 1497
+            },
+            "overriddenCallableMembers": 2669,
+            "numberOfIrElements": 67975
+        }
+    },
+    {
+        "id": "ee2f85cd280e96f48ec4e7bd8f2b200adb5aa0087f4d4e60f32076c66b0c3b94",
+        "version": null,
+        "type": "Local",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 85,
+                "callableMembers": 510
+            },
+            "nonExportableDeclarations": {
+                "classes": 87,
+                "callableMembers": 771
+            },
+            "overriddenCallableMembers": 661,
+            "numberOfIrElements": 40511
+        }
+    },
+    {
+        "id": "3692e8a2113900fabaf0cd802887acbac39e8a94009b91cf817284c29789984f",
+        "version": null,
+        "type": "Local",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 85,
+                "callableMembers": 603
+            },
+            "nonExportableDeclarations": {
+                "classes": 39,
+                "callableMembers": 336
+            },
+            "overriddenCallableMembers": 694,
+            "numberOfIrElements": 30367
+        }
+    },
+    {
+        "id": "49715f3d203c11437c8184f7a25ba393a13275bd4c98e74f7412f6b7af0843f1",
+        "version": null,
+        "type": "Local",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 16,
+                "callableMembers": 183
+            },
+            "nonExportableDeclarations": {
+                "classes": 12,
+                "callableMembers": 59
+            },
+            "overriddenCallableMembers": 106,
+            "numberOfIrElements": 4320
+        }
+    },
+    {
+        "id": "498b9292968eeca5ff4a50db9f5729577e5d6cbc245e907e4dd9f26a2dbc88cf",
+        "version": null,
+        "type": "Local",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 8,
+                "callableMembers": 126
+            },
+            "nonExportableDeclarations": {
+                "classes": 3,
+                "callableMembers": 15
+            },
+            "overriddenCallableMembers": 33,
+            "numberOfIrElements": 3118
+        }
+    },
+    {
+        "id": "75b09b9b3af03bb82ec43933e9b12e1895832b2bdb4a20d9cba6e34b23e4a055",
+        "version": null,
+        "type": "Local",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 4,
+                "callableMembers": 10
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 3
+            },
+            "overriddenCallableMembers": 12,
+            "numberOfIrElements": 214
+        }
+    },
+    {
+        "id": "789e684aae9dc25c8b2ec8539ce94d77d520b259a823c88d25c4120c2965b794",
+        "version": null,
+        "type": "Local",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 58,
+                "callableMembers": 337
+            },
+            "nonExportableDeclarations": {
+                "classes": 232,
+                "callableMembers": 1887
+            },
+            "overriddenCallableMembers": 2388,
+            "numberOfIrElements": 78752
+        }
+    },
+    {
+        "id": "b6fee07b3eeed0953e2ccf0cc38e378522e94291728881dad28901e183d77d2e",
+        "version": null,
+        "type": "Local",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 224,
+                "callableMembers": 1435
+            },
+            "nonExportableDeclarations": {
+                "classes": 44,
+                "callableMembers": 1209
+            },
+            "overriddenCallableMembers": 1293,
+            "numberOfIrElements": 48985
+        }
+    },
+    {
+        "id": "6bb25caf5bd92cfac4b4d1ef4e136114a0577bfe31ba2b357a5b7315b1de6c4c",
+        "version": null,
+        "type": "Local",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "overriddenCallableMembers": 0,
+            "numberOfIrElements": 1
+        }
+    },
+    {
+        "id": "be020bf96165b4f809d4d320f8ebca337892af6e0f0d52cc7993535d7a4cac3f",
+        "version": null,
+        "type": "Local",
+        "isExported": true,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 31,
+                "callableMembers": 115
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 18
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 10
+            },
+            "overriddenCallableMembers": 113,
+            "numberOfIrElements": 4744
+        }
+    },
+    {
+        "id": "19c0abd6752b1bf17fed8a428d0d8d1210d0db65938e4371d2dec8812f32c822",
+        "version": null,
+        "type": "Local",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 11,
+                "callableMembers": 17
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 53,
+                "callableMembers": 260
+            },
+            "nonExportableDeclarations": {
+                "classes": 151,
+                "callableMembers": 1079
+            },
+            "overriddenCallableMembers": 2856,
+            "numberOfIrElements": 43646
+        }
+    },
+    {
+        "id": "0c73991c9bd0022f4a7cddac8d84406b3459435f921e9e4e1f3d3b10f62090b0",
+        "version": null,
+        "type": "Local",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 12,
+                "callableMembers": 87
+            },
+            "nonExportableDeclarations": {
+                "classes": 1,
+                "callableMembers": 24
+            },
+            "overriddenCallableMembers": 47,
+            "numberOfIrElements": 1901
+        }
+    },
+    {
+        "id": "e08f105b017ad8ecd8aafa4be5b8aa1e783c0ee4134ee9d3c9d7b6609e221c2e",
+        "version": null,
+        "type": "Local",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 2,
+                "callableMembers": 13
+            },
+            "nonExportableDeclarations": {
+                "classes": 2,
+                "callableMembers": 2
+            },
+            "overriddenCallableMembers": 12,
+            "numberOfIrElements": 110
+        }
+    },
+    {
+        "id": "88a24e73d459ad5e8c8323ccacb6e11208978c495af9c441f066548ec4228301",
+        "version": null,
+        "type": "Local",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 49,
+                "callableMembers": 1040
+            },
+            "nonExportableDeclarations": {
+                "classes": 9,
+                "callableMembers": 510
+            },
+            "overriddenCallableMembers": 955,
+            "numberOfIrElements": 48394
+        }
+    },
+    {
+        "id": "b54440cbe079f175dcd50812b48fe8f18756e20563b13b7fce217508171a9fbc",
+        "version": null,
+        "type": "Local",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 1,
+                "callableMembers": 18
+            },
+            "nonExportableDeclarations": {
+                "classes": 5,
+                "callableMembers": 1
+            },
+            "overriddenCallableMembers": 21,
+            "numberOfIrElements": 274
+        }
+    },
+    {
+        "id": "d942a2c8ae563eeba3670b5380360ea4bd3d93ba395abeb8ea4d20ebb07b5a4f",
+        "version": null,
+        "type": "Local",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 1
+            },
+            "nonExportableDeclarations": {
+                "classes": 1,
+                "callableMembers": 0
+            },
+            "overriddenCallableMembers": 3,
+            "numberOfIrElements": 12
+        }
+    },
+    {
+        "id": "b975543b43faaeb821662d7de2dff1bfd50a0916d8110845747642cb7df8630c",
+        "version": null,
+        "type": "Local",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 2,
+                "callableMembers": 9
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 5
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 1
+            },
+            "overriddenCallableMembers": 6,
+            "numberOfIrElements": 348
+        }
+    },
+    {
+        "id": "9c39303cbba5654e569ae595e67f7c4374a5310a92658df56766b22219342ed9",
+        "version": null,
+        "type": "Local",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 23
+            },
+            "nonExportableDeclarations": {
+                "classes": 2,
+                "callableMembers": 2
+            },
+            "overriddenCallableMembers": 6,
+            "numberOfIrElements": 819
+        }
+    },
+    {
+        "id": "48a952ed47c24f9fdccd34ce1d90fd807d9ee125b1b07e64aeb513ccc68ed249",
+        "version": null,
+        "type": "Local",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "overriddenCallableMembers": 0,
+            "numberOfIrElements": 2
+        }
+    },
+    {
+        "id": "002f369a5897d3f01e334b42ce86381523e6a1ff22ab060feed3be0b747f45c2",
+        "version": null,
+        "type": "Local",
+        "isExported": false,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 0
+            },
+            "overriddenCallableMembers": 0,
+            "numberOfIrElements": 1
+        }
+    },
+    {
+        "id": "533c81d76f8acc5645bcd2ec19ca487aa4602b6943f02abaaf99b9be7534450f",
+        "version": null,
+        "type": "Local",
+        "isExported": true,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 18,
+                "callableMembers": 24
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 2
+            },
+            "nonExportableDeclarations": {
+                "classes": 3,
+                "callableMembers": 36
+            },
+            "overriddenCallableMembers": 118,
+            "numberOfIrElements": 1410
+        }
+    },
+    {
+        "id": "60013393a07b7ab37b494aa0f5f339cd65d30d12286646cd1303cfb50d767428",
+        "version": null,
+        "type": "Local",
+        "isExported": true,
+        "statistics": {
+            "exportedDeclarations": {
+                "classes": 15,
+                "callableMembers": 39
+            },
+            "exportableNonExportedDeclarations": {
+                "classes": 0,
+                "callableMembers": 2
+            },
+            "nonExportableDeclarations": {
+                "classes": 0,
+                "callableMembers": 15
+            },
+            "overriddenCallableMembers": 52,
+            "numberOfIrElements": 955
+        }
+    }
+]

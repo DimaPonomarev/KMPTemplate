@@ -1,0 +1,95 @@
+version: "Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)"
+options: "5ee5c539f1a91f21d9e5039622c89144bb60182db6c6c46e00af31f1f77ae7bd"
+build_start_time: [1738537145, 716214000]
+build_end_time: [1738537146, 520593000]
+inputs:
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Foundation/Foundation.NSNotificationCenter.swift"
+  : [1738537079, 528472010]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Foundation/Foundation.NSString.swift"
+  : [1738537079, 528813593]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/KotlinxCoroutinesCore/KotlinxCoroutinesCore.Flow.swift"
+  : [1738537079, 525857180]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/KotlinxCoroutinesCore/KotlinxCoroutinesCore.FlowCollector.swift"
+  : [1738537079, 525758555]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/MvvmFlow/MvvmFlow.BindingBaseKt.swift"
+  : [1738537079, 527416970]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/MvvmFlow/MvvmFlow.DisposableHandle.swift"
+  : [1738537079, 526987637]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/MvvmFlow/MvvmFlow.DisposableHandleKt.swift"
+  : [1738537079, 526900970]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Resources/Resources.ColorDesc.swift"
+  : [1738537079, 529038009]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Resources/Resources.NSBundleExtKt.swift"
+  : [1738537079, 528701260]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Resources/Resources.ResourceContainer.swift"
+  : [1738537079, 528587552]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Resources/Resources.StringDesc.LocaleType.swift"
+  : [1738537079, 526360846]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Resources/Resources.StringDesc.swift"
+  : [1738537079, 528926759]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Shared/Shared.HomeViewModel.Action.swift"
+  : [1738537079, 526594012]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Shared/Shared.LoginViewModel.Action.swift"
+  : [1738537079, 526680054]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Shared/Shared.Platform_iosKt.swift"
+  : [1738537079, 529138968]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Shared/Shared.ViewModelState.swift"
+  : [1738537079, 526768637]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Skie/Skie.AsyncStreamDispatcherDelegate.swift"
+  : [1738537079, 524183557]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Skie/Skie.FlowConversions.swift"
+  : [1738537079, 526169888]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Skie/Skie.Namespace.swift"
+  : [1738537079, 524286765]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Skie/Skie.SkieColdFlowIterator.swift"
+  : [1738537079, 525984513]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Skie/Skie.SkieKotlinOptionalFlow.swift"
+  : [1738537079, 527088512]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Skie/Skie.SkieKotlinOptionalMutableStateFlow.swift"
+  : [1738537079, 527190553]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Skie/Skie.SkieKotlinOptionalStateFlow.swift"
+  : [1738537079, 527300261]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Skie/Skie.SkieSwiftFlow.swift"
+  : [1738537079, 524570556]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Skie/Skie.SkieSwiftFlowIterator.swift"
+  : [1738537079, 524389390]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Skie/Skie.SkieSwiftFlowProtocol.swift"
+  : [1738537079, 524482640]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Skie/Skie.SkieSwiftMutableSharedFlow.swift"
+  : [1738537079, 524964097]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Skie/Skie.SkieSwiftMutableStateFlow.swift"
+  : [1738537079, 525327555]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Skie/Skie.SkieSwiftOptionalFlow.swift"
+  : [1738537079, 524665306]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Skie/Skie.SkieSwiftOptionalMutableSharedFlow.swift"
+  : [1738537079, 525054514]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Skie/Skie.SkieSwiftOptionalMutableStateFlow.swift"
+  : [1738537079, 525477055]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Skie/Skie.SkieSwiftOptionalSharedFlow.swift"
+  : [1738537079, 524870848]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Skie/Skie.SkieSwiftOptionalStateFlow.swift"
+  : [1738537079, 525228347]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Skie/Skie.SkieSwiftSharedFlow.swift"
+  : [1738537079, 524757098]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Skie/Skie.SkieSwiftStateFlow.swift"
+  : [1738537079, 525140347]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Skie/Skie.Skie_SuspendResult.swift"
+  : [1738537079, 526452429]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Skie/Skie.SwiftCoroutineDispatcher.swift"
+  : [1738537079, 523783474]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/Skie/Skie.bridgeSubscriptionCount.swift"
+  : [1738537079, 525579847]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/UIKit/UIKit.UIButton.swift"
+  : [1738537079, 527924469]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/UIKit/UIKit.UIControl.swift"
+  : [1738537079, 527698261]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/UIKit/UIKit.UILabel.swift"
+  : [1738537079, 528171094]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/UIKit/UIKit.UISwitch.swift"
+  : [1738537079, 528047927]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/UIKit/UIKit.UITextField.swift"
+  : [1738537079, 528287510]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/UIKit/UIKit.UITextView.swift"
+  : [1738537079, 527796511]
+  ? "/Users/dima/Desktop/Fifth/shared/build/skie/binaries/podReleaseFramework/RELEASE/iosSimulatorArm64/swift/generated/UIKit/UIKit.UIView.swift"
+  : [1738537079, 527591844]
